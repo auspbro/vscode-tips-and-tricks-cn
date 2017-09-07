@@ -32,14 +32,14 @@ Visual Studio Code 开发团队使用内测版用于测试 VS Code 最新功能�
 ## 准备开始
 
 打开 **欢迎** 页面准备进入 VS Code 大门。 **帮助** > **欢迎**.
-
+·
 ![欢迎页面](/media/welcome_page.png)
 
 欢迎页面有 **互动演练场**
 
 ![interactive playground](/media/interactive_playground.png)
 
-## Command Palette
+## 命令面板
 
 Access all available commands based on your current context.
 
@@ -49,25 +49,24 @@ Access all available commands based on your current context.
 
 ![command palette](/media/OpenCommandPalatte.gif)
 
-## Reference keybindings
+## 组合键参考
 
-All of the commands are in the **Command Palette** with the associated key binding (if it exists). If you forget what the key binding is use the **Command Palette** to help you out.
+在**命令面板**中的所有命令都有与之对应的快捷键（如果有的话）。如果你忘记快捷键是什么，可以打开**命令面板**来查看。
 
 ![keyboard references](/media/keyboard-references.png)
 
-## Quick open
+## 快捷开启
 
-Quickly open files.
-
+快速的打开文件和运行相关命令(操作如下)
 > Mac: <kbd>cmd+p</kbd>
 
 > Windows / Linux: <kbd>ctrl+p</kbd>
 
 ![Quick Open](/media/QuickOpen.gif)
 
-> **Tip:** Type "?" to view help suggestions.
+> **提示:** 输入 "?" 查看帮助
 
-### Navigate between recently opened files
+### 在最近打开过的文件之间切换
 
 Repeat the **Quick Open** keyboard shortcut to cycle quickly between recently opened files.
 
