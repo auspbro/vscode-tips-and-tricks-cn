@@ -3,25 +3,25 @@
 
 # 内容目录
 
-1. <a href="#basics">前言</a>
-2. <a href="#customization">个性化自定义</a>
+1. <a href="#入门">入门</a>
+2. <a href="#个性化自定义">个性化自定义</a>
 3. <a href="#extensions">插件扩展</a>
-4. <a href="#file-and-folder-management">文件管理</a>
-5. <a href="#editing-hacks">Editing hacks</a>
-6. <a href="#intellisense">IntelliSense</a>
-7. <a href="#snippets">Snippets</a>
-8. <a href="#git-integration">Git integration</a>
-9. <a href="#debugging">Debugging</a>
+4. <a href="#file-and-folder-management">文件及文件夹管理</a>
+5. <a href="#editing-hacks">高效编辑</a>
+6. <a href="#intellisense">智能提示</a>
+7. <a href="#snippets">创建代码片段</a>
+8. <a href="#git-integration">Git 集成</a>
+9. <a href="#debugging">调试</a>
 10. <a href="#task-runner">Task runner</a>
-11. <a href="#other-resources">Other Resources</a>
+11. <a href="#other-resources">其他资源</a>
 
-> The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/getstarted/keybindings) for the latest keyboard shortcut reference.
+> 文中内容提到的快捷键操作有可能和最新版本有所出入，最新版本的键盘快捷键请参考[这里](https://code.visualstudio.com/docs/getstarted/keybindings)
 
-# Basics
+# 入门
 
-## Insider Version of VS Code
+## VS Code 内部测试版本
 
-The Visual Studio Code team uses the Insiders version to test the latest features and bug fixes of VS Code. You can use this same version by [downloading here](https://code.visualstudio.com/insiders).
+Visual Studio Code 开发团队使用内测版用于测试 VS Code 最新功能及便于 bug 修复。内测版可以在[这里](https://code.visualstudio.com/insiders)下载。
 
 * For Early Adopters - Insiders has the most recent code changes and may lead to the occasional broken build.
 * Frequent Builds - New builds everyday with the latest bug fixes and features.
@@ -29,13 +29,13 @@ The Visual Studio Code team uses the Insiders version to test the latest feature
 
 ![side by side install](/media/side-by-side-install.png)
 
-## Getting Started
+## 准备开始
 
-Open the **Welcome** page to get started with the basics of VS Code. **Help** > **Welcome**.
+打开 **欢迎** 页面准备进入 VS Code 大门。 **帮助** > **欢迎**.
 
-![welcome page](/media/welcome_page.png)
+![欢迎页面](/media/welcome_page.png)
 
-Includes the **Interactive Playground**.
+欢迎页面有 **互动演练场**
 
 ![interactive playground](/media/interactive_playground.png)
 
