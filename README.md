@@ -31,7 +31,7 @@ Visual Studio Code 开发团队使用内测版用于测试 VS Code 最新功能�
 
 ## 准备开始
 
-打开 **欢迎** 页面准备进入 VS Code 大门。 **帮助** > **欢迎使用**.
+打开 **欢迎** 页面准备进入 VS Code 大门。 **帮助** > **欢迎**.
 ·
 ![欢迎页面](/media/welcome_page.png)
 
@@ -68,71 +68,71 @@ Access all available commands based on your current context.
 
 ### 在最近打开过的文件之间切换
 
-Repeat the **Quick Open** keyboard shortcut to cycle quickly between recently opened files.
+重复按下**快捷开启**快捷键会重复在最近打开过的文件之间切换
 
-### Open multiple files from Quick Open
+### 使用快捷开启打开多个文件
 
 You can open multiple files from **Quick Open** by pressing the Right arrow key. This will open the currently selected file in the background and you can continue selecting files from **Quick Open**.
 
 ## CLI tool
 
-> Linux: Follow instructions [here](https://code.visualstudio.com/docs/editor/setup#_linux).
+> Linux: 请参考 [这里](https://code.visualstudio.com/docs/editor/setup#_linux).
 
-> Windows: Follow instructions [here](https://code.visualstudio.com/docs/editor/setup#_windows).
+> Windows: 请参考 [这里](https://code.visualstudio.com/docs/editor/setup#_windows).
+·
+> Mac: 请参考以下
 
-> Mac: see below.
+打开 **命令面板** (<kbd>F1</kbd>) 输入 "shell command". 敲回车执行 **Shell 指令: 安装 'code' 指令到环境变量**.
 
-Open the **Command Palette** (<kbd>F1</kbd>) and type "shell command". Hit enter to execute **Shell Command: Install 'code' command in PATH**.
-
-![shell command](/media/setup_shell-command.png)
+![shell 指令](/media/setup_shell-command.png)
 
 
 ```bash
-# open code with current directory
+# 在 VS Code 中打开当前目录 
 code .
 
-# open the current directory in the most recently used code window
+# 在最近使用过的 VS Code 窗口打开当前目录
 code -r .
 
-# create a new window
+# 创建新的窗口
 code -n
 
-# change the language
+# 更改语言
 code --locale=es
 
-# open diff editor
+# 打开 diff 编辑器比较文件
 code --diff <file1> <file2>
 
-# see help options
+# 查看帮助选项
 code --help
 
-# disable all extensions
+# 禁用所有扩展
 code --disable-extensions .
 ```
 
 ![all cli commands](/media/vscode-cli-commands.png)
 
-## .vscode folder
+## .vscode 文件夹
 
 Workspace specific files are in `.vscode`. For example, `tasks.json` for the Task Runner and `launch.json` for the debugger.
 
-## Status Bar decorations
+## 状态栏
 
-**Errors and Warnings**
+**错误和警告**
 
 > Mac: <kbd>shift+cmd+m</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+m</kbd>
 
-Quickly jump to errors and warnings in the project.
+快速跳转到项目出错和警告的位置
 
-Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
+循环通过错误 <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 
 ![errors and warnings](/media/Errors_Warnings.gif)
 
 You can filter problems by type ('errors', 'warnings') or text matching.
 
-**Change language mode**
+**更换语言模式**
 
 > Mac: <kbd>cmd+k m</kbd>
 
@@ -142,9 +142,9 @@ You can filter problems by type ('errors', 'warnings') or text matching.
 
 If you want to persist the new language mode for that file type, you can use the **Configure File Association for ...** command to associate the current file extension with an installed language.
 
-# Customization
+# 自定义
 
-There are many things you can do to customize VS Code.
+通过自定义 VS Code,你可以做更多事情
 
 * Change your theme
 * Change your keyboard shortcuts
