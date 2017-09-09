@@ -425,9 +425,9 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 Enter distraction free Zen mode.
 
-## Side by side editing
+## 拆分编辑器
 
-> Mac: <kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the File Explorer.
+> Mac: <kbd>cmd+\\</kbd> 或者 <kbd>cmd</kbd> 然后从文件管理器点击一个文件
 
 > Windows / Linux: <kbd>ctrl+\\</kbd>
 
@@ -437,7 +437,7 @@ Enter distraction free Zen mode.
 
 You can use drag and drop editors to create new editor groups and move editors between groups.
 
-## Switch between editors
+## 在多页编辑器之间切换
 
 > Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
 
