@@ -31,17 +31,16 @@ Visual Studio Code 开发团队使用内测版用于测试 VS Code 最新功能�
 
 ## 准备开始
 
-打开 **欢迎** 页面准备进入 VS Code 大门。 **帮助** > **欢迎**.
-·
+打开**欢迎**页面准备进入 VS Code 大门。 **帮助** > **欢迎**.
+
 ![欢迎页面](/media/welcome_page.png)
 
-欢迎页面有 **互动演练场**
+欢迎页面有**交互式演练场**用于互动演示 VS Code 的一些功能
 
 ![interactive playground](/media/interactive_playground.png)
 
 ## 命令面板
 
-Access all available commands based on your current context.
 命令面板可以基于当前输入的内容访问所有提供的命令入口
 
 > Mac: <kbd>cmd+shift+p</kbd> or <kbd>f1</kbd>
@@ -77,10 +76,10 @@ You can open multiple files from **Quick Open** by pressing the Right arrow key.
 
 ## CLI 工具
 
-> Linux: 请参考[这里](https://code.visualstudio.com/docs/editor/setup#_linux).
+> Linux: 请参考[这里](https://code.visualstudio.com/docs/editor/setup#_linux)。
 
-> Windows: 请参考[这里](https://code.visualstudio.com/docs/editor/setup#_windows).
-·
+> Windows: 请参考[这里](https://code.visualstudio.com/docs/editor/setup#_windows)。
+
 > Mac: 请参考以下
 
 打开 **命令面板** (<kbd>F1</kbd>) 输入 "shell command". 敲回车执行 **Shell 指令: 安装 'code' 指令到环境变量**.
