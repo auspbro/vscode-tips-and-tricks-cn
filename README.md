@@ -144,59 +144,60 @@ If you want to persist the new language mode for that file type, you can use the
 
 # 自定义
 
-通过自定义 VS Code,你可以做更多事情
+·通过自定义 VS Code,你可以做更多事情
 
-* Change your theme
-* Change your keyboard shortcuts
-* Tune your settings
-* Add JSON validation
-* Create snippets
-* Install extensions
+* 更换主题
+* 更换键盘快捷键
+* 调整设定
+* 添加 Json 许可
+* 创建代码片段
+* 安装扩展
 
 Check out the full [documentation](https://code.visualstudio.com/docs/getstarted/settings).
 
-## Change your theme
+## 更改主题
 
-Open the **Command Palette** and type "themes". You can install more themes from the extension Marketplace.
+打开 **命令面板** 输入"themes". 你可以在扩展市场安装更多主题。
 
 ![Preview themes](/media/PreviewThemes.gif)
 
-Additionally, you can install and change your File Icon themes.
+另外你可以安装更改文件图标的主题
 
 ![File icon themes](/media/PreviewFileIconThemes.gif)
 
-## Change your keyboard shortcuts
+## 更换键盘快捷键
 
 ### Keyboard Reference Sheets
+### 键盘快捷键参考文档
 
-Download the keyboard shortcut reference sheet for your platform ([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144)).
+对应的平台的快捷键参考文档 ([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144)).
 
 ![Keyboard Reference Sheet](/media/KeyboardReferenceSheet.png)
 
-### Keymaps
+### 键映射
 
-Are you used to keyboard shortcuts from another editor? You can install a Keymap extension that brings the keyboard shortcuts from your favorite editor to VS Code. Go to **Preferences** > **Keymap Extensions** to see the current list on the [Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads). Some of the more popular ones:
+如果你习惯于某种编辑器的快捷键，可以安装快捷键扩展到 VS Code 来导入你常用的编辑器的快捷键。 选择 **首选项** > **键映射扩展** 去 [Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 查看当前列表。 比较流行的一些:
 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 - [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 - [Emacs Keymap](https://marketplace.visualstudio.com/items?itemName=hiro-sun.vscode-emacs)
 - [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
 
-### Customize your keyboard shortcuts
+### 自定义键盘快捷键
 
-Open the **Command Palette** and type "keyboard shortcuts." You can now add your own keybindings in the file on the right.
+打开 **命令面板** 输入"keyboard shortcuts" 现在可以在文件的右侧添加你自己的组合键了。
 
 ![customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
 
-See more in [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings).
+查看更多 [· for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings).
 
-## Tune your settings
+## 自定义设置
 
-Open `settings.json`
+打开 `settings.json`
 
 > Mac: <kbd>cmd+,</kbd>
 
-> Windows / Linux: **File** > **Preferences** > **Settings**
+> Windows / Linux: **文件** > **首选项** > **设置**
 
 *Format on paste*
 
