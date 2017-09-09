@@ -31,7 +31,7 @@ Visual Studio Code 开发团队使用内测版用于测试 VS Code 最新功能�
 
 ## 准备开始
 
-打开**欢迎**页面准备进入 VS Code 大门。 **帮助** > **欢迎**.
+打开**欢迎**页面进入 VS Code 大门。 **帮助** > **欢迎**。
 
 ![欢迎页面](/media/welcome_page.png)
 
@@ -115,6 +115,7 @@ code --disable-extensions .
 ## .vscode 文件夹
 
 Workspace specific files are in `.vscode`. For example, `tasks.json` for the Task Runner and `launch.json` for the debugger.
+·
 
 ## 状态栏
 
@@ -358,19 +359,19 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 ## 安装扩展
 
-Click t·he Extensions Activity Bar button. You can search via the search bar or click the **More** (...) button to filter and sort by install count.
+点击编辑器左侧活动栏的扩展按钮，然后你可以通过搜索窗口或者点击**更多** (...) 按钮来选择过滤和通过安装计数的排序方式安装想要的扩展。
 
 ![install extensions](/media/InstallExtensions.gif)
 
-## Extension recommendations
+## 扩展推荐
 
-Click the Extensions Activity Bar button. Then click **Show Recommended Extensions** in the **More** (...) button menu.
+点击活动栏的扩展按钮，然后点击**更多** (...) 按钮菜单选中**显示推荐的扩展**即可
 
 ![show recommended extensions](/media/ShowRecommendedExtensions.gif)
 
-## Creating my own extension
+## 创建自己扩展
 
-Are you interested in creating your own extension? You can learn how to do this in the documentation, specifically check out the [documentation on contribution points](https://code.visualstudio.com/docs/extensionAPI/extension-points).
+如果你对创建自己的扩展感兴趣，可以看看这个[文档](https://code.visualstudio.com/docs/extensionAPI/extension-points)。
 
 * configuration
 * commands
@@ -382,31 +383,31 @@ Are you interested in creating your own extension? You can learn how to do this 
 * snippets
 * jsonValidation
 
-# File and folder management
+# 文件及文件夹管理
 
-## Integrated terminal
+## 集成终端
 
 > Windows / Linux / Mac: <kbd>ctrl+`</kbd>
 
 ![Integrated terminal](/media/integrated_terminal.png)
 
-Further reading:
+进一步了解：
 
 - [Official documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
 - [Mastering VS Code's Terminal article](http://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html)
 
 
-## Auto Save
+## 自动保存
 
-Open `settings.json` with <kbd>cmd+,</kbd>
+使用 <kbd>cmd+,</kbd> 打开 `settings.json` 
 
 ```json
 "files.autoSave": "afterDelay"
 ```
 
-You can also toggle Auto Save from the top-level menu with the **File** > **Auto Save**.
+你也可以在顶层菜单栏通过 **文件** > **自动保存** 来触发自动保存功能。
 
-## Toggle Sidebar
+## 切换侧边栏
 
 > Mac: <kbd>cmd+b</kbd>
 
@@ -414,7 +415,7 @@ You can also toggle Auto Save from the top-level menu with the **File** > **Auto
 
 ![toggle side bar](/media/toggle_side_bar.gif)
 
-## Zen Mode
+## 免干扰模式
 
 > Mac: <kbd>cmd+k z</kbd>
 
