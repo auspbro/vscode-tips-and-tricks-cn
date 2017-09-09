@@ -23,11 +23,11 @@
 
 Visual Studio Code 开发团队使用内测版用于测试 VS Code 最新功能及便于 bug 修复。内测版可以在[这里](https://code.visualstudio.com/insiders)下载。
 
-* For Early Adopters - Insiders has the most recent code changes and may lead to the occasional broken build.
-* Frequent Builds - New builds everyday with the latest bug fixes and features.
-* Side-by-side install - Insiders installs next to the Stable build allowing you to use either independently.
+* 对早期使用者而言 - 内测版的代码更新比较快可能会导致各种 bug。
+* 频繁的版本更新 - 频繁更新开发版会修复最近的 bug 和提供新的功能尝鲜。
+* 多版本共存安装 - 内测版和稳定版可以同步安装到系统并且独立使用互不影响。
 
-![side by side install](/media/side-by-side-install.png)
+![多版本共存安装](/media/side-by-side-install.png)
 
 ## 准备开始
 
@@ -42,12 +42,13 @@ Visual Studio Code 开发团队使用内测版用于测试 VS Code 最新功能�
 ## 命令面板
 
 Access all available commands based on your current context.
+命令面板可以基于当前输入的内容访问所有提供的命令入口
 
 > Mac: <kbd>cmd+shift+p</kbd> or <kbd>f1</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+p</kbd> or <kbd>f1</kbd>
 
-![command palette](/media/OpenCommandPalatte.gif)
+![命令面板](/media/OpenCommandPalatte.gif)
 
 ## 组合键参考
 
@@ -74,11 +75,11 @@ Access all available commands based on your current context.
 
 You can open multiple files from **Quick Open** by pressing the Right arrow key. This will open the currently selected file in the background and you can continue selecting files from **Quick Open**.
 
-## CLI tool
+## CLI 工具
 
-> Linux: 请参考 [这里](https://code.visualstudio.com/docs/editor/setup#_linux).
+> Linux: 请参考[这里](https://code.visualstudio.com/docs/editor/setup#_linux).
 
-> Windows: 请参考 [这里](https://code.visualstudio.com/docs/editor/setup#_windows).
+> Windows: 请参考[这里](https://code.visualstudio.com/docs/editor/setup#_windows).
 ·
 > Mac: 请参考以下
 
@@ -358,7 +359,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 ## 安装扩展
 
-Click the Extensions Activity Bar button. You can search via the search bar or click the **More** (...) button to filter and sort by install count.
+Click t·he Extensions Activity Bar button. You can search via the search bar or click the **More** (...) button to filter and sort by install count.
 
 ![install extensions](/media/InstallExtensions.gif)
 
