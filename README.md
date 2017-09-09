@@ -5,15 +5,15 @@
 
 1. <a href="#入门">入门</a>
 2. <a href="#自定义">自定义</a>
-3. <a href="#extensions">插件扩展</a>
-4. <a href="#file-and-folder-management">文件及文件夹管理</a>
-5. <a href="#editing-hacks">进阶编辑</a>
-6. <a href="#intellisense">智能提示</a>
-7. <a href="#snippets">创建代码片段</a>
-8. <a href="#git-integration">Git 集成</a>
-9. <a href="#debugging">调试</a>
+3. <a href="#插件扩展">插件扩展</a>
+4. <a href="#文件及文件夹管理">文件及文件夹管理</a>
+5. <a href="#进阶编辑">进阶编辑</a>
+6. <a href="#智能提示">智能提示</a>
+7. <a href="#创建代码片段">创建代码片段</a>
+8. <a href="#Git 集成">Git 集成</a>
+9. <a href="#调试">调试</a>
 10. <a href="#task-runner">Task runner</a>
-11. <a href="#other-resources">其他资源</a>
+11. <a href="#其他资源">其他资源</a>
 
 > 文中内容提到的快捷键操作有可能和最新版本有所出入，最新版本的键盘快捷键请参考[这里](https://code.visualstudio.com/docs/getstarted/keybindings)
 
@@ -348,7 +348,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 查看更多 [文档](https://code.visualstudio.com/docs/languages/json).
 
-# 扩展
+# 插件扩展
 
 ## 查找扩展
 
@@ -505,7 +505,7 @@ Navigate Forward.
 }
 ```
 
-# 进阶编辑·
+# 进阶编辑
 
 这里挑选了一些常见的提高编辑效率的技巧。如果键盘快捷键跟你习惯有冲突，可以考虑安装[键映射](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 扩展。
 
@@ -522,21 +522,23 @@ Navigate Forward.
 
 ![multi cursor second example](/media/editingevolved_multicursor.gif)
 
-Add more cursors to current selection.·
+Add more cursors to current selection.
+添加更多的光标到当前选中的地方。
 
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
 ## Join line
+## 加入到一行
 
 > Mac: <kbd>ctrl+j</kbd>
 
-> Windows / Linux: Not bound by default. Open Keyboard Shortcuts and bind `editor.action.joinLines` to a shortcut of your choice.
+> Windows / Linux: 默认没有绑定。 打开快捷方式绑定 `editor.action.joinLines` 到你选择的一个快捷键。
 
 ![Join lines](/media/JoinLines.gif)
 
-## Copy line up / down
+## 把当前行复制到上／下一行
 
-> Mac: <kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
+> Mac: <kbd>opt+shift+up</kbd> 或者 <kbd>opt+shift+down</kbd>
 
 > Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
 
@@ -604,9 +606,9 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![trailing whitespace](/media/trim_whitespace.gif)
 
-## Code formatting
+## 格式化代码
 
-### Currently selected source code
+### 格式化当前选中的源代码
 
 > Mac: <kbd>cmd+k, cmd+f</kbd>
 
@@ -618,7 +620,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![code formatting](/media/code_formatting.gif)
 
-## Code folding
+## 代码折叠
 
 > Mac: <kbd>shift+cmd+\[</kbd> and <kbd>shift+cmd+\]</kbd>
 
