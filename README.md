@@ -445,8 +445,7 @@ You can use drag and drop editors to create new editor groups and move editors b
 
 ![navigate editors](/media/navigate_editors.gif)
 
-## Move to Explorer window
-## 移动到资源管理窗口
+## 切换到资源管理窗口
 
 > Mac: <kbd>cmd+shift+e</kbd>
 
@@ -461,7 +460,7 @@ You can use drag and drop editors to create new editor groups and move editors b
 ![create and open file](/media/create_open_file.gif)
 
 ## Close the currently opened folder
-## 关闭当前打开的文件夹
+## 关闭当前打开的文件夹。
 
 > Mac: <kbd>cmd+w</kbd>
 
