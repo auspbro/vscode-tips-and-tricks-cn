@@ -191,7 +191,7 @@ Check out the full [documentation](https://code.visualstudio.com/docs/getstarted
 
 查看更多 [· for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings).
 
-## 自定义设置
+## 自定义设置·
 
 打开 `settings.json`
 
@@ -205,36 +205,37 @@ Check out the full [documentation](https://code.visualstudio.com/docs/getstarted
 "editor.formatOnPaste": true
 ```
 
-*Change the font size*
+*更改字体大小*
 
 ```json
 "editor.fontSize": 18
 ```
 
-*Change the zoom level*
+*更改缩放等级*
 
 ```json
 "window.zoomLevel": 5
 ```
 
-*Font ligatures*
+*font ligatures*
 
 ```json
 "editor.fontFamily": "Fira Code",
 "editor.fontLigatures": true
 ```
 
-> **Tip:** You will need to have a font installed that supports font ligatures. [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team.
+> **提示:** 你需要安装一个支持 font ligatures 的字体。 [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team.
 
 ![font ligatures](/media/font-ligatures-annotated.png)
 
-*Auto Save*
+*自动保存*
 
 ```json
 "files.autoSave": "afterDelay"
 ```
 
 You can also toggle Auto Save from the top-level menu with the **File** > **Auto Save**.
+你也可以在最高级菜单 **文件** > **自动保存** 开启自动保存。
 
 *Format on save*
 
@@ -242,13 +243,13 @@ You can also toggle Auto Save from the top-level menu with the **File** > **Auto
 "editor.formatOnSave": true,
 ```
 
-*Change the size of tab characters*
+*改变缩进的字符长度*
 
 ```json
 "editor.tabSize": 4
 ```
 
-*Spaces or tabs*
+*空格还是缩进*
 
 ```json
 "editor.insertSpaces": true
@@ -260,9 +261,9 @@ You can also toggle Auto Save from the top-level menu with the **File** > **Auto
 "editor.renderWhitespace": "all"
 ```
 
-*Ignore files / folders*
+*忽略文件或者文件夹*
 
-Removes these files / folders from your editor window.
+从编辑器窗口移除这些文件或者文件夹
 
 ```json
 "files.exclude": {
@@ -271,7 +272,7 @@ Removes these files / folders from your editor window.
 }
 ```
 
-Remove these files / folders from search results.
+从搜索结果中移除这些文件或者文件夹。
 
 ```json
 "search.exclude": {
@@ -280,11 +281,11 @@ Remove these files / folders from search results.
 }
 ```
 
-And many, many [others](https://code.visualstudio.com/docs/getstarted/settings).
+还有许多[其他的功能](https://code.visualstudio.com/docs/getstarted/settings)。
 
-## Language specific settings
+## 特定的语言设置
 
-For those settings you only want for specific languages.
+你可以只为某些特定的语言设置
 
 ```json
 "[languageid]": {
@@ -292,11 +293,11 @@ For those settings you only want for specific languages.
 }
 ```
 
-> **Tip:** You can find the language ID by typing in the **Command Palette** "Configure language specific settings"
+> **提示:** 你可以在 **命令面板** 输入 "Configure language specific settings" 找到 language id
 
 ![language based settings](/media/lang-based-settings.png)
 
-## Add JSON Validation
+## 添加 JSON 认可
 
 Enabled by default for many files. Create your own schema and validation in `settings.json`
 
@@ -311,7 +312,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 ]
 ```
 
-or for a schema defined in your workspace
+活着在你的工作区定义一个 schema
 
 ```json
 "json.schemas": [
@@ -324,7 +325,7 @@ or for a schema defined in your workspace
 ]
 ```
 
-or a custom schema
+或者自定义一个 schema
 
 ```json
 "json.schemas": [
@@ -344,18 +345,18 @@ or a custom schema
     },
 ```
 
-See more in the [documentation](https://code.visualstudio.com/docs/languages/json).
+查看更多 [文档](https://code.visualstudio.com/docs/languages/json).
 
-# Extensions
+# 扩展
 
-## Find extensions
+## 查找扩展
 
-1. In the VS Code [Marketplace](https://marketplace.visualstudio.com/vscode).
-2. Search inside VS Code
-3. View extension recommendations
-4. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode).
+1. 在 VS Code [市场](https://marketplace.visualstudio.com/vscode).
+2. 在 VS Code 内搜索
+3. 查看扩展推荐
+4. 社区创建的扩张列表，例如 [awesome-vscode](https://github.com/viatsko/awesome-vscode).
 
-## Install extensions
+## 安装扩展
 
 Click the Extensions Activity Bar button. You can search via the search bar or click the **More** (...) button to filter and sort by install count.
 
