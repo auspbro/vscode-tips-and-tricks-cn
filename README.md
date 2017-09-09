@@ -7,7 +7,7 @@
 2. <a href="#个性化自定义">个性化自定义</a>
 3. <a href="#extensions">插件扩展</a>
 4. <a href="#file-and-folder-management">文件及文件夹管理</a>
-5. <a href="#editing-hacks">高效编辑</a>
+5. <a href="#editing-hacks">进阶编辑</a>
 6. <a href="#intellisense">智能提示</a>
 7. <a href="#snippets">创建代码片段</a>
 8. <a href="#git-integration">Git 集成</a>
@@ -505,7 +505,7 @@ Navigate Forward.
 }
 ```
 
-# 编辑进阶
+# 进阶编辑
 
 这里挑选了一些常见的提高编辑效率的技巧。如果键盘快捷键跟你习惯有冲突，可以考虑安装[键映射](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 扩展。
 
@@ -522,7 +522,7 @@ Navigate Forward.
 
 ![multi cursor second example](/media/editingevolved_multicursor.gif)
 
-Add more cursors to current selection.
+Add more cursors to current selection.·
 
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
