@@ -4,7 +4,7 @@
 # 内容目录
 
 1. <a href="#入门">入门</a>
-2. <a href="#个性化自定义">个性化自定义</a>
+2. <a href="#自定义">自定义</a>
 3. <a href="#extensions">插件扩展</a>
 4. <a href="#file-and-folder-management">文件及文件夹管理</a>
 5. <a href="#editing-hacks">进阶编辑</a>
@@ -505,7 +505,7 @@ Navigate Forward.
 }
 ```
 
-# 进阶编辑
+# 进阶编辑·
 
 这里挑选了一些常见的提高编辑效率的技巧。如果键盘快捷键跟你习惯有冲突，可以考虑安装[键映射](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 扩展。
 
