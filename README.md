@@ -459,24 +459,26 @@ You can use drag and drop editors to create new editor groups and move editors b
 
 ![create and open file](/media/create_open_file.gif)
 
-## Close the currently opened folder
-## 关闭当前打开的文件夹。
+## 关闭当前打开的标签页。
 
 > Mac: <kbd>cmd+w</kbd>
 
 > Windows / Linux: <kbd>ctrl+k f</kbd>
 
-## History
+## 回溯操作历史
 
-Navigate entire history with <kbd>ctrl+tab</kbd>
+回溯上一个编辑过的文件 <kbd>ctrl+tab</kbd>
+
 
 Navigate back.
+操作历史往后回溯。
 
 > Mac: <kbd>ctrl+-</kbd>
 
 > Windows / Linux: <kbd>alt+left</kbd>
 
 Navigate Forward.
+操作历史向前回溯。
 
 > Mac: <kbd>ctrl+shift+-</kbd>
 
@@ -485,6 +487,7 @@ Navigate Forward.
 ![navigate history](/media/navigate_history.gif)
 
 ## Navigate to a file
+## 回溯文件
 
 > Mac: <kbd>cmd+e</kbd> or <kbd>cmd+p</kbd>
 
@@ -492,9 +495,9 @@ Navigate Forward.
 
 ![navigate to file](/media/navigate_to_file.gif)
 
-## File associations
+## 文件关联
 
-Create language associations for files that aren't detected accurately (for example, many config files are JSON).
+为一些无法准确识别的文件创建语言关联（例如许多 JSON 配置文件）。
 
 ```json
 "file.associations": {
@@ -502,17 +505,18 @@ Create language associations for files that aren't detected accurately (for exam
 }
 ```
 
-# Editing hacks
+# 编辑进阶
 
-Here are a selection of common features for editing code. If the keyboard shortcuts aren't comfortable for you, consider installing a [Keymap extension](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) for your old editor.
+这里挑选了一些常见的提高编辑效率的技巧。如果键盘快捷键跟你习惯有冲突，可以考虑安装[键映射](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 扩展。
 
 ## Multi cursor selection
+## 多光标选择
 
-> Mac: <kbd>opt+cmd+up</kbd> or <kbd>opt+cmd+down</kbd>
+> Mac: <kbd>opt+cmd+up</kbd> 或者 <kbd>opt+cmd+down</kbd>
 
-> Windows: <kbd>ctrl+alt+up</kbd> or <kbd>ctrl+alt+down</kbd>
+> Windows: <kbd>ctrl+alt+up</kbd> 或者 <kbd>ctrl+alt+down</kbd>
 
-> Linux: <kbd>alt+shift+up</kbd> or <kbd>alt+shift+down</kbd>
+> Linux: <kbd>alt+shift+up</kbd> 或者 <kbd>alt+shift+down</kbd>
 
 ![multi cursor](/media/multi_cursor.gif)
 
