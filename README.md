@@ -114,8 +114,7 @@ code --disable-extensions .
 
 ## .vscode 文件夹
 
-Workspace specific files are in `.vscode`. For example, `tasks.json` for the Task Runner and `launch.json` for the debugger.
-·
+工作区 `.vscode` 中的特殊文件。例如：Task Runner 的 `tasks.json` 和 debugger 的 `launch.json`。
 
 ## 状态栏
 
@@ -528,7 +527,7 @@ Add more cursors to current selection.
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
 ## Join line
-## 加入到一行
+## 多行加入到一行
 
 > Mac: <kbd>ctrl+j</kbd>
 
@@ -538,23 +537,25 @@ Add more cursors to current selection.
 
 ## 把当前行复制到上／下一行
 
-> Mac: <kbd>opt+shift+up</kbd> 或者 <kbd>opt+shift+down</kbd>
+> Mac: <kbd>opt+shift+up</kbd> 或者· <kbd>opt+shift+down</kbd>
 
 > Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
 
 ## Shrink / expand selection
+## 缩小／扩大选择
 
-More in [documentation](https://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
+更多[文档](https://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
 
-> Mac: <kbd>ctrl+shift+cmd+left</kbd> or <kbd>ctrl+shift+cmd+right</kbd>
+> Mac: <kbd>ctrl+shift+cmd+left</kbd> 或 <kbd>ctrl+shift+cmd+right</kbd>
 
-> Windows / Linux: <kbd>shift+alt+left</kbd> or <kbd>shift+alt+right</kbd>
+> Windows / Linux: <kbd>shift+alt+left</kbd> 或 <kbd>shift+alt+right</kbd>
 
 ![shrink expand selection](/media/shrink_expand_selection.gif)
 
 ## Go to Symbol in File
+## 在文件中跳转到标志符号
 
 > Mac: <kbd>cmd+shift+o</kbd>
 
@@ -567,6 +568,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 ![group symbols by kind](/media/group_symbols_by_kind.png)
 
 ## Go to Symbol in Workspace
+## 在工作区中跳转到标志符号
 
 > Mac: <kbd>cmd+t</kbd>
 
@@ -574,7 +576,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![go to symbol in workspace](/media/go_to_symbol_in_workspace.png)
 
-## Navigate to a specific line
+## 跳转到XX行
 
 > Mac: <kbd>ctrl+g</kbd> or <kbd>cmd+p, :</kbd>
 
@@ -583,6 +585,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 ![navigate to line](/media/navigate_to_line.gif)
 
 ## Undo cursor position
+## 撤销光标位置
 
 > Mac: <kbd>cmd+u</kbd>
 
@@ -590,7 +593,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![undo cursor position](/media/undo_cursor_position.gif)
 
-## Move line up and down
+## 当前行向上或下移动
 
 > Mac: <kbd>opt+up</kbd> or <kbd>opt+down</kbd>
 
