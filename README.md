@@ -711,11 +711,9 @@ Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the c
 
 ## .eslintrc.json
 
-Install the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint). Configure
-your linter however you'd like. Specification is [here](http://eslint.org/docs/user-guide/configuring).
+安装 [ESLint 插件](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)。配置你喜欢的 linter，具体请参考[这里](http://eslint.org/docs/user-guide/configuring).
 
-
-Here is configuration to use ES6.
+下面是使用 ES6 的配置
 
 ```json
 {
@@ -758,20 +756,21 @@ Here is configuration to use ES6.
 ## package.json
 
 See IntelliSense for your `package.json` file.
+查看你 `package.json` 文件的智能提示
 
 ![package json intellisense](/media/package_json_intellisense.gif)
 
-## Emmet syntax
+## Emmet 语法
 
 [Support for Emmet syntax](https://code.visualstudio.com/docs/languages/html#_emmet-snippets).
 
 ![emmet syntax](/media/emmet_syntax.gif)
 
-# Snippets
+# 代码片段
 
-## Create custom snippets
+## 建立自定义代码片段
 
-**File** > **Preferences** > **User Snippets**, select the language, and create a snippet.
+**文件** > **首选项** > **用户代码片段**，选择相关语言建立代码片段。
 
 ```json
 "create component": {
@@ -788,7 +787,7 @@ See IntelliSense for your `package.json` file.
 },
 ```
 
-See more details in [Creating your own Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets).
+查看更多详细内容关于 [建立用户代码片段](https://code.visualstudio.com/docs/editor/userdefinedsnippets).
 
 # Git Integration
 
