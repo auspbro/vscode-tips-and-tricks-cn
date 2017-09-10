@@ -12,7 +12,7 @@
 7. <a href="#创建代码片段">创建代码片段</a>
 8. <a href="#Git 集成">Git 集成</a>
 9. <a href="#调试">调试</a>
-10. <a href="#task-runner">Task runner</a>
+10. <a href="#运行任务">运行任务</a>
 11. <a href="#其他资源">其他资源</a>
 
 > 文中内容提到的快捷键操作有可能和最新版本有所出入，最新版本的键盘快捷键请参考[这里](https://code.visualstudio.com/docs/getstarted/keybindings)
@@ -787,13 +787,13 @@ See IntelliSense for your `package.json` file.
 },
 ```
 
-查看更多详细内容关于 [建立用户代码片段](https://code.visualstudio.com/docs/editor/userdefinedsnippets).
+查看更多详细内容关于 [建立用户代码片段](https://code.visualstudio.com/docs/editor/userdefinedsnippets)。
 
-# Git Integration
+# Git 集成
 
 Git integration comes with VS Code "in-the-box". You can install other SCM provider from the extension Marketplace. This section describes the Git integration but much of the UI and gestures are shared by other SCM providers.
 
-## Diffs
+## Diffs 代码差异比较
 
 Click the Source Control button in the Activity Bar then select the file to diff.
 
@@ -881,33 +881,36 @@ During a merge, click the Source Control button in the Activity Bar and make cha
 git config --global merge.tool code
 ```
 
-# Debugging
+# 调试
 
-## Configure debugger
+## 配置调试器
 
 <kbd>f1</kbd> and select **Debug: Open launch.json**, select the environment. This will generate a `launch.json` file. Works out of the box as expected for Node.js and other environments. May need some additional configuration for other languages. See [documentation](https://code.visualstudio.com/docs/editor/debugging) for more details.
 
 ![configure debugging](/media/configure_debug.gif)
 
-## Breakpoints and stepping through
+## 断点和单步调试
 
 Place breakpoints next to the line number. Navigate forward with the Debug widget.
 
 ![debug](/media/node_debug.gif)
 
 ## Data inspection
+## 数据审查
 
 Inspect variables in the Debug panels and in the console.
 
 ![data inspection](/media/debug_data_inspection.gif)
 
 ## Inline values
+## 内联值
 
 You can set `"debug.inlineValues": true` to see variable values inline in the debugger. This feature is experimental and disabled by default.
 
-# Task Runner
+# 运行任务
 
 ## Auto detect tasks
+## 自动获取任务
 
 Select **Tasks** from the top-level menu, run the command **Configure Tasks...**, then select the type of task you'd like to run.
 This will generate a `task.json` file with content like the following. See the Tasks [documentation](https://go.microsoft.com/fwlink/?LinkId=733558) for more details.
@@ -936,15 +939,16 @@ This will generate a `task.json` file with content like the following. See the T
 
 There are occasionally issues with auto generation. Check out the documentation for getting things to work properly.
 
-## Run tasks from the Tasks menu
+## 从任务菜单运行任务
 
 Select **Tasks** from the top-level menu, run the command **Run Task...**, and select the task you want to run. Terminate the running task by running the command **Terminate Task...**
+从顶层菜单选择**任务**，选择**运行任务...**命令，接着选择你想运行的人物。选择**终止任务...** 停止任务运行。
 
 ![task runner](/media/task_runner.gif)
 
 
-## Other Resources
+## 其他资源
 
-* [vscode official docs](https://code.visualstudio.com/docs)
+* [vscode 官方文档](https://code.visualstudio.com/docs)
 * [react sample app](https://github.com/Microsoft/vscode-react-sample)
 * [awesome vscode](https://github.com/viatsko/awesome-vscode)
