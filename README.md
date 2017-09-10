@@ -673,35 +673,39 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 # 智能提示
 
-Anytime, try <kbd>ctrl+space</kbd> to trigger the Suggestions widget.
+无论何时，尝试按下 <kbd>ctrl+space</kbd> 来触发智能建议小部件功能。
 
 ![intellisense](/media/intellisense.gif)
 
-You can view available methods, parameter hints, short documentation, etc.
+你可以查看提供的方法，参数提示及短文档等。
 
 ## Peek
+## 一瞥
 
 Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the context menu.
+选择一个象征符号然后按下 <kbd>alt+f12</kbd>，或者你可以使用上下文菜单（Windows 右键菜单）。
 
 ![peek](/media/peek.gif)
 
-## Go to Definition
+## 转到定义
 
-Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context menu or <kbd>ctrl+click</kbd> (<kbd>cmd+click</kbd> on macOS).
+选择一个 symbol 然后按下 <kbd>f12</kbd>，另外你也可以使用上下文菜单或者 <kbd>ctrl+click</kbd> (<kbd>cmd+click</kbd> on macOS)。
+
 
 ![go to definition](/media/goto_definition.gif)
 
 You can go back to your previous location with the **Go** > **Back** command or <kbd>alt+left</kbd> (<kbd>ctrl+-</kbd> on macOS).
 
-## Find All References
+## 查找所有申明
 
 Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the context menu.
+选择一个 symbol 然后按下 <kbd>shift+f12</kbd>，或者可以使用环境菜单。
 
 ![find all references](/media/find_all_references.gif)
 
-## Rename Symbol
+## 重命名 Symbol
 
-Select a symbol then type <kbd>f2</kbd>. Alternatively, you can use the context menu.
+选择一个 symbol 然后按下 <kbd>f2</kbd>，你也可以使用环境菜单。
 
 ![rename symbol](/media/rename_symbol.gif)
 
@@ -709,6 +713,7 @@ Select a symbol then type <kbd>f2</kbd>. Alternatively, you can use the context 
 
 Install the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint). Configure
 your linter however you'd like. Specification is [here](http://eslint.org/docs/user-guide/configuring).
+
 
 Here is configuration to use ES6.
 
