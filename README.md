@@ -593,7 +593,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![undo cursor position](/media/undo_cursor_position.gif)
 
-## 当前行向上或下移动
+## 当前行向上或下移动·
 
 > Mac: <kbd>opt+up</kbd> or <kbd>opt+down</kbd>
 
@@ -617,7 +617,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 > Windows / Linux: <kbd>ctrl+k, ctrl+f</kbd>
 
-### Whole document format
+### 格式化当前文档代码
 
 > Windows / Linux: <kbd>shift+alt+f</kbd>
 
@@ -631,7 +631,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![code folding](/media/code_folding.gif)
 
-## Select current line
+## 选中当前行
 
 > Mac: <kbd>cmd+i</kbd>
 
@@ -639,19 +639,19 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![select current line](/media/select_current_line.gif)
 
-## Navigate to beginning and end of file
+## 光标跳至行尾
 
-> Mac: <kbd>cmd+up</kbd> and <kbd>cmd+down</kbd>
+> Mac: <kbd>cmd+up</kbd> 和 <kbd>cmd+down</kbd>
 
-> Windows: <kbd>ctrl+up</kbd> and <kbd>ctrl+down</kbd>
+> Windows: <kbd>ctrl+up</kbd> 和 <kbd>ctrl+down</kbd>
 
-> Linux: <kbd>ctrl+home</kbd> and <kbd>ctrl+end</kbd>
+> Linux: <kbd>ctrl+home</kbd> 和 <kbd>ctrl+end</kbd>
 
 ![navigate to beginning and end of file](/media/beginning_end_file.gif)
 
-## Open Markdown Preview
+## 开启 Markdown 预览
 
-In a Markdown file, use
+在 Markdown 文件中使用
 
 > Mac: <kbd>shift+cmd+v</kbd>
 
@@ -660,18 +660,18 @@ In a Markdown file, use
 ![toggle readme preview](/media/toggle_preview.gif)
 
 ## Side by Side Markdown Edit and Preview
+## 拆分编辑器一边编辑 Markdown 同时一边预览
 
-In a Markdown file, use
+在 Markdown 文件中使用
 
 > Mac: <kbd>cmd+k v</kbd>
 
 > Windows / Linux: <kbd>ctrl+k v</kbd>
 
-Special bonus: The preview will now sync.
 
 ![markdown sync](/media/markdown-preview-sync.gif)
 
-# IntelliSense
+# 智能提示
 
 Anytime, try <kbd>ctrl+space</kbd> to trigger the Suggestions widget.
 
