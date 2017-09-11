@@ -189,7 +189,7 @@ You can filter problems by type ('errors', 'warnings') or text matching.
 
 ![customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
 
-查看更多 [· for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings).
+查看更多关于 [Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings) 自定义快捷键内容。
 
 ## 自定义设置·
 
