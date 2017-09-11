@@ -1,7 +1,8 @@
 
 # [VS Code](https://code.visualstudio.com) 提升编码效率的技巧集
 
-> 英文版请参考这里 [VS Code Tips and Tricks](https://github.com/auspbro/vscode-tips-and-tricks-cn/blob/master/README_EN.md)
+> 英文版请参考 [VS Code Tips and Tricks](https://github.com/auspbro/vscode-tips-and-tricks-cn/blob/master/README_EN.md)
+
 > 文中内容提到的快捷键操作有可能和最新版本有所出入，最新版本的键盘快捷键请参考[这里](https://code.visualstudio.com/docs/getstarted/keybindings)
 
 # 内容目录
