@@ -792,21 +792,24 @@ See IntelliSense for your `package.json` file.
 
 # Git 集成
 
-Git integration comes with VS Code "in-the-box". You can install other SCM provider from the extension Marketplace. This section describes the Git integration but much of the UI and gestures are shared by other SCM providers.
+VS Code 默认内部集成 Git ，你也可以在扩展商店安装其他的源码版本管理系统。这一部分只作 VS Code 内部集成的 Git 介绍，其他源码版本管理工具也可参考，大同小异而已。
 
 ## Diffs 代码差异比较
 
 Click the Source Control button in the Activity Bar then select the file to diff.
+点击编辑器左侧活动栏上的源代码管理按钮(<kbd>ctrl+shift+G</kdb>)，然后选择需要对比的文件。
 
 ![git icon](/media/git_icon.png)
 
-**Side by side**
+**并排视图**
 
 Default is side by side diff.
+默认是并排比较代码差异
 
 ![git diff side by side](/media/git_side_by_side.png)
 
 **Inline view**
+**内联视图**
 
 Toggle inline view by clicking the **More** (...) button in the top right and selecting **Switch to Inline View**.
 
