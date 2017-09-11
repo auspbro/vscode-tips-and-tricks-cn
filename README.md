@@ -803,8 +803,7 @@ Click the Source Control button in the Activity Bar then select the file to diff
 
 **并排视图**
 
-Default is side by side diff.
-默认是并排比较代码差异
+默认是纵向并排比较代码差异
 
 ![git diff side by side](/media/git_side_by_side.png)
 
@@ -833,33 +832,37 @@ Lines can be navigated with arrow keys and pressing `Enter` will jump back in th
 You can make edits directly in the pending changes of the diff view.
 
 
-## Branches
+## 分支
 
-Easily switch between Git branches via the Status Bar.
+通过状态栏可以方便的切换 Git 分支。
 
 ![switch branches](/media/switch_branches.gif)
 
-## Staging
+## 暂存
 
-**Stage all**
+**暂存所有文件**
 
 Hover over the number of files and click the plus button.
+鼠标悬停在有数字的文件上点击加号按钮。
+
 
 ![git stage all](/media/git_stage_all.gif)
 
-**Stage selected**
+**暂存某个文件**
 
 Stage a portion of a file by selecting that file (using the arrows) and then choosing **Stage Selected Ranges** from the **Command Palette**.
+在**命令面板**选择**暂存所选范围**暂存文件的一部分
+
 
 ![git stage selected](https://cloud.githubusercontent.com/assets/1926584/23407797/ebeefbb4-fdc5-11e6-8ca1-c4c6c056a8fd.png)
 
-## Undo last commit
+## 撤消上次提交
 
 ![undo last commit](/media/undo_last_commit.gif)
 
-## See Git output
+## 查看 Git 输出
 
-VS Code makes it easy to see what Git commands are actually running. This is helpful when learning Git or debugging a difficult source control issue.
+VS Code 可以方便的查看 Git 指令是否有效的执行，这对学习 Git 或调试困难的 issue 很有帮助。
 
 > Mac: <kbd>shift+cmd+u</kbd>
 
@@ -867,19 +870,24 @@ VS Code makes it easy to see what Git commands are actually running. This is hel
 
 to run `toggleOutput`. Select **Git** in the drop-down.
 
-## Gutter indicators
+## Gutter 指示器
 
-View diff decorations in editor. See [documentation](https://code.visualstudio.com/docs/editor/versioncontrol#_gutter-indicators) for more details.
+Gutter 指示器功能可以让你在编辑器编辑区看到源码被改动过的一些痕迹，详细内容请看[这里](https://code.visualstudio.com/docs/editor/versioncontrol#_gutter-indicators)。
+
+* 一个红色三角形表示被删除的行
+* 一个绿色的竖条表示新增的行
+* 一个蓝色竖条表示修改过的行
 
 ![git gutter indicators](/media/editingevolved_gutter.png)
 
-## Resolve merge conflicts
+## 解决合并冲突
 
 During a merge, click the Source Control button in the Activity Bar and make changes in the diff view.
+在合并分支时，在活动栏点击源代码管理按钮
 
 ![git icon](/media/git_icon.png)
 
-## Setup VS Code as default merge tool
+## 设置 VS Code 为默认合并分支工具
 
 ```bash
 git config --global merge.tool code
