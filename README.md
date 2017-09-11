@@ -142,6 +142,7 @@ You can filter problems by type ('errors', 'warnings') or text matching.
 ![change syntax](/media/change_syntax.gif)
 
 If you want to persist the new language mode for that file type, you can use the **Configure File Association for ...** command to associate the current file extension with an installed language.
+如果你想给文件存留成新的语言模式，可以通过**选择语言模式...**命令来关联一个已经安装好的语言到当前文件。
 
 # 自定义
 
