@@ -796,8 +796,7 @@ VS Code 默认内部集成 Git ，你也可以在扩展商店安装其他的源�
 
 ## Diffs 代码差异比较
 
-Click the Source Control button in the Activity Bar then select the file to diff.
-点击编辑器左侧活动栏上的源代码管理按钮(<kbd>ctrl+shift+G</kbd>)，然后选择需要对比的文件。
+点击编辑器左侧活动栏上的源代码管理按钮(<kbd>ctrl+shift+G</kbd>)，然后点击列表上的 M 按钮可以并排查看文件修改的对比。
 
 ![git icon](/media/git_icon.png)
 
