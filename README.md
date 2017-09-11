@@ -158,7 +158,7 @@ You can filter problems by type ('errors', 'warnings') or text matching.
 
 ## 更改主题
 
-打开 **命令面板** 输入"themes". 你可以在扩展市场安装更多主题。
+打开 **命令面板** 输入"themes". 你可以在扩展商店安装更多主题。
 
 ![Preview themes](/media/PreviewThemes.gif)
 
@@ -176,7 +176,7 @@ You can filter problems by type ('errors', 'warnings') or text matching.
 
 ### 键映射
 
-如果你习惯于某种编辑器的快捷键，可以安装快捷键扩展到 VS Code 来导入你常用的编辑器的快捷键。 选择 **首选项** > **键映射扩展** 去 [扩展商店](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 查看当前列表。 比较流行的一些比如:
+如果你习惯于某种编辑器的快捷键，可以安装快捷键扩展到 VS Code 来导入你常用的编辑器的快捷键。 选择 **首选项** > **键映射扩展** 去 [扩展商店](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 查看当前列表。 比较流行的一些键迎神插件如下:
 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 - [Sublime Text 键映射](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
@@ -351,7 +351,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 ## 查找扩展
 
-1. 在 VS Code [市场](https://marketplace.visualstudio.com/vscode).
+1. 在 VS Code [商店](https://marketplace.visualstudio.com/vscode).
 2. 在 VS Code 内搜索
 3. 查看扩展推荐
 4. 社区创建的扩张列表，例如 [awesome-vscode](https://github.com/viatsko/awesome-vscode).
