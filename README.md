@@ -141,8 +141,7 @@ You can filter problems by type ('errors', 'warnings') or text matching.
 
 ![change syntax](/media/change_syntax.gif)
 
-If you want to persist the new language mode for that file type, you can use the **Configure File Association for ...** command to associate the current file extension with an installed language.
-如果你想给文件存留成新的语言模式，可以通过**选择语言模式...**命令来关联一个已经安装好的语言到当前文件。
+如果你想给文件存留成新的语言模式，可以在编辑器右下角通过**选择语言模式...**命令来关联一个已经安装好的语言到当前文件。
 
 # 自定义
 
@@ -235,7 +234,6 @@ If you want to persist the new language mode for that file type, you can use the
 "files.autoSave": "afterDelay"
 ```
 
-You can also toggle Auto Save from the top-level menu with the **File** > **Auto Save**.
 你也可以在最高级菜单 **文件** > **自动保存** 开启自动保存。
 
 *Format on save*
