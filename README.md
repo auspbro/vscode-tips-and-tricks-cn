@@ -918,6 +918,7 @@ Inspect variables in the Debug panels and in the console.
 ## 内联值
 
 You can set `"debug.inlineValues": true` to see variable values inline in the debugger. This feature is experimental and disabled by default.
+你可以通过设置 `"debug.inlineValues": true` 打开在调试器中来查看提供的值这个功能，这个功能还处于实验阶段所以默认是关闭的。
 
 # 运行任务
 
@@ -950,6 +951,8 @@ This will generate a `task.json` file with content like the following. See the T
 ```
 
 There are occasionally issues with auto generation. Check out the documentation for getting things to work properly.
+有一些偶然的 issue 会自动产生，查阅文档可以让你事半功倍哦。
+
 
 ## 从任务菜单运行任务
 
