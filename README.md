@@ -124,13 +124,14 @@ code --disable-extensions .
 
 > Windows / Linux: <kbd>ctrl+shift+m</kbd>
 
-快速跳转到项目出错和警告的位置
+快速跳转到项目出错和警告的位置,如果是 Markdown 文件按下 <kbd>ctrl+shift+m</kbd> 默认是把编辑器拆分成预览窗口。
 
-循环通过错误 <kbd>f8</kbd> or <kbd>shift+f8</kbd>
+重复切换定位错误 <kbd>f8</kbd> 或 <kbd>shift+f8</kbd>
 
 ![errors and warnings](/media/Errors_Warnings.gif)
 
 You can filter problems by type ('errors', 'warnings') or text matching.
+你可以输入（'errors','warnings'）或匹配的文本来过滤筛选问题。
 
 **更换语言模式**
 
