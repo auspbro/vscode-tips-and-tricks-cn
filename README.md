@@ -72,7 +72,7 @@ Visual Studio Code 开发团队使用内测版用于测试 VS Code 最新功能�
 
 ### 使用快捷开启打开多个文件
 
-You can open multiple files from **Quick Open** by pressing the Right arrow key. This will open the currently selected file in the background and you can continue selecting files from **Quick Open**.
+你可以通过**快捷开启**方式按下键盘右键在后台打开当前项目的多个文件。
 
 ## CLI 工具
 
@@ -153,7 +153,7 @@ If you want to persist the new language mode for that file type, you can use the
 * 创建代码片段
 * 安装扩展
 
-Check out the full [documentation](https://code.visualstudio.com/docs/getstarted/settings).
+查看完整 [文档](https://code.visualstudio.com/docs/getstarted/settings).
 
 ## 更改主题
 
@@ -167,7 +167,6 @@ Check out the full [documentation](https://code.visualstudio.com/docs/getstarted
 
 ## 更换键盘快捷键
 
-### Keyboard Reference Sheets
 ### 键盘快捷键参考文档
 
 对应的平台的快捷键参考文档 ([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144)).
