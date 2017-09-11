@@ -602,7 +602,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![move line up and down](/media/move_line.gif)
 
-## Trim trailing whitespace
+## 修剪行尾空白
 
 > Mac: <kbd>cmd+k cmd+x</kbd>
 
@@ -763,7 +763,7 @@ See IntelliSense for your `package.json` file.
 
 ## Emmet 语法
 
-[Support for Emmet syntax](https://code.visualstudio.com/docs/languages/html#_emmet-snippets).
+[更多支持 Emmt 的语法](https://code.visualstudio.com/docs/languages/html#_emmet-snippets).
 
 ![emmet syntax](/media/emmet_syntax.gif)
 
