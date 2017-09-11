@@ -1,5 +1,8 @@
 # [VS Code](https://code.visualstudio.com) Tips and Tricks
 
+> The Chinese version please refer [VS Code 提升编码效率的技巧集](https://github.com/auspbro/vscode-tips-and-tricks-cn/blob/master/README.md)
+> The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/getstarted/keybindings) for the latest keyboard shortcut reference.
+
 # Table of Contents
 
 1. <a href="#basics">Basics</a>
@@ -14,7 +17,6 @@
 10. <a href="#task-runner">Task runner</a>
 11. <a href="#other-resources">Other Resources</a>
 
-> The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/getstarted/keybindings) for the latest keyboard shortcut reference.
 
 # Basics
 
