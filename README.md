@@ -300,6 +300,7 @@ You can also toggle Auto Save from the top-level menu with the **File** > **Auto
 ## 添加 JSON 认可
 
 Enabled by default for many files. Create your own schema and validation in `settings.json`
+开启默认启用，在 `settings.json` 创建你自己的 schema 和 validation。
 
 ```json
 "json.schemas": [
@@ -312,7 +313,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 ]
 ```
 
-活着在你的工作区定义一个 schema
+或者在你的工作区定义一个 schema
 
 ```json
 "json.schemas": [
@@ -414,7 +415,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 ![toggle side bar](/media/toggle_side_bar.gif)
 
-## 免干扰模式
+## 免打扰模式
 
 > Mac: <kbd>cmd+k z</kbd>
 
@@ -422,7 +423,8 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 ![zen mode](/media/zen_mode.gif)
 
-Enter distraction free Zen mode.
+开启免干扰模式。
+
 
 ## 拆分编辑器
 
