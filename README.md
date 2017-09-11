@@ -176,12 +176,12 @@ You can filter problems by type ('errors', 'warnings') or text matching.
 
 ### 键映射
 
-如果你习惯于某种编辑器的快捷键，可以安装快捷键扩展到 VS Code 来导入你常用的编辑器的快捷键。 选择 **首选项** > **键映射扩展** 去 [Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 查看当前列表。 比较流行的一些:
+如果你习惯于某种编辑器的快捷键，可以安装快捷键扩展到 VS Code 来导入你常用的编辑器的快捷键。 选择 **首选项** > **键映射扩展** 去 [扩展商店](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 查看当前列表。 比较流行的一些比如:
 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-- [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
-- [Emacs Keymap](https://marketplace.visualstudio.com/items?itemName=hiro-sun.vscode-emacs)
-- [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
+- [Sublime Text 键映射](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
+- [Emacs 键映射](https://marketplace.visualstudio.com/items?itemName=hiro-sun.vscode-emacs)
+- [Atom 键映射](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
 
 ### 自定义键盘快捷键
 
