@@ -425,7 +425,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 ![zen mode](/media/zen_mode.gif)
 
-开启免干扰模式。
+开启免打扰模式。
 
 
 ## 拆分编辑器
