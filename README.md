@@ -813,13 +813,13 @@ VS Code 默认内部集成 Git ，你也可以在扩展商店安装其他的源�
 **Inline view**
 **内联视图**
 
-在并排对比视图状态下可以通过点击右上角**更多**按钮选择**切换到内联视图**
+在并排对比视图状态下可以通过点击右上角**更多**按钮选择**切换到内联视图*·*
 
 ![more git button](/media/more_button.png)
 
 ![git inline](/media/git_inline.png)
 
-If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false`.
+如果相比较而言你更喜欢内联视图，你可以设置 `"diffEditor.renderSideBySide": false`。
 
 
 **Review Pane**
