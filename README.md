@@ -439,6 +439,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 ![split editors](/media/split_editor.gif)
 
 You can use drag and drop editors to create new editor groups and move editors between groups.
+你可以使用拖拽的方式来创建新的编辑器组和在编辑器组之间移动
 
 ## 在多页编辑器之间切换
 
@@ -812,7 +813,7 @@ VS Code 默认内部集成 Git ，你也可以在扩展商店安装其他的源�
 **Inline view**
 **内联视图**
 
-Toggle inline view by clicking the **More** (...) button in the top right and selecting **Switch to Inline View**.
+在并排对比视图状态下可以通过点击右上角**更多**按钮选择**切换到内联视图**
 
 ![more git button](/media/more_button.png)
 
