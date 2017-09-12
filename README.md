@@ -395,8 +395,8 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 进一步了解：
 
-- [Official documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
-- [Mastering VS Code's Terminal article](http://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html)
+- [官方文档](https://code.visualstudio.com/docs/editor/integrated-terminal)
+- [精通 VS Code 终端的文章](http://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html)
 
 
 ## 自动保存
