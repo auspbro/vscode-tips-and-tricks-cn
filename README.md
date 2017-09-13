@@ -507,26 +507,23 @@ code --disable-extensions .
 
 这里挑选了一些常见的提高编辑效率的技巧。如果键盘快捷键跟你习惯有冲突，可以考虑安装[键映射](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 扩展。
 
-## Multi cursor selection
-## 多光标选择
+## 插入多光标
 
-> Mac: <kbd>opt+cmd+up</kbd> 或者 <kbd>opt+cmd+down</kbd>
+> Mac: <kbd>opt+cmd+up</kbd> 或 <kbd>opt+cmd+down</kbd>
 
-> Windows: <kbd>ctrl+alt+up</kbd> 或者 <kbd>ctrl+alt+down</kbd>
+> Windows: <kbd>ctrl+alt+up</kbd> 或 <kbd>ctrl+alt+down</kbd>
 
-> Linux: <kbd>alt+shift+up</kbd> 或者 <kbd>alt+shift+down</kbd>
+> Linux: <kbd>alt+shift+up</kbd> 或 <kbd>alt+shift+down</kbd>
 
 ![multi cursor](/media/multi_cursor.gif)
 
 ![multi cursor second example](/media/editingevolved_multicursor.gif)
 
-Add more cursors to current selection.
 添加更多的光标到当前选中的地方。
 
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
-## Join line
-## 多行加入到一行
+## 合并行
 
 > Mac: <kbd>ctrl+j</kbd>
 
@@ -534,16 +531,15 @@ Add more cursors to current selection.
 
 ![Join lines](/media/JoinLines.gif)
 
-## 把当前行复制到上／下一行
+## 复制当前行到上/下一行
 
-> Mac: <kbd>opt+shift+up</kbd> 或者· <kbd>opt+shift+down</kbd>
+> Mac: <kbd>opt+shift+up</kbd> 或 <kbd>opt+shift+down</kbd>
 
 > Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
 
-## Shrink / expand selection
-## 缩小／扩大选择
+## 收缩/展开选择区域
 
 更多[文档](https://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
 
@@ -553,8 +549,7 @@ Add more cursors to current selection.
 
 ![shrink expand selection](/media/shrink_expand_selection.gif)
 
-## Go to Symbol in File
-## 在文件中跳转到标志符号
+## 在文件中的标志位跳转
 
 > Mac: <kbd>cmd+shift+o</kbd>
 
@@ -566,8 +561,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![group symbols by kind](/media/group_symbols_by_kind.png)
 
-## Go to Symbol in Workspace
-## 在工作区中跳转到标志符号
+## 在工作区中的标志位跳转
 
 > Mac: <kbd>cmd+t</kbd>
 
@@ -575,7 +569,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![go to symbol in workspace](/media/go_to_symbol_in_workspace.png)
 
-## 跳转到XX行
+## 跳转到某行
 
 > Mac: <kbd>ctrl+g</kbd> or <kbd>cmd+p, :</kbd>
 
