@@ -300,8 +300,7 @@ code --disable-extensions .
 
 ## 添加 JSON 认可
 
-Enabled by default for many files. Create your own schema and validation in `settings.json`
-开启默认启用，在 `settings.json` 创建你自己的 schema 和 validation。
+多数文件默认是启用的，在 `settings.json` 创建你自己的 schema 和 validation。
 
 ```json
 "json.schemas": [
@@ -440,7 +439,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 You can use drag and drop editors to create new editor groups and move editors between groups.
 你可以使用拖拽的方式来创建新的编辑器组和在编辑器组之间移动
 
-## 在多页编辑器之间切换
+## 在编辑器标签页之间切换
 
 > Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
 
