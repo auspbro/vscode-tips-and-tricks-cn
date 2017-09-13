@@ -557,7 +557,6 @@ code --disable-extensions .
 
 ![Find by symbol](/media/find_by_symbol.gif)
 
-You can group the symbols by kind by adding a colon, `@:`.
 你可以添加一个冒号`@:`来分组符号
 
 ![group symbols by kind](/media/group_symbols_by_kind.png)
@@ -673,7 +672,6 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ## 一瞥
 
-Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the context menu.
 选择一个符号然后按下 <kbd>alt+f12</kbd>，或者你可以使用上下文菜单（Windows 右键菜单）。
 
 ![peek](/media/peek.gif)
@@ -809,13 +807,14 @@ VS Code 默认内部集成 Git ，你也可以在扩展商店安装其他的源�
 
 Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format. 
 Lines can be navigated with arrow keys and pressing `Enter` will jump back in the diff editor and the selected line.
+在对比视图中通过 `F7` 和 `Shift+F7` 来切换到不同的代码区块，
 
 ![diff_review_pane](/media/diff_review_pane.png)
 
 
-**Edit pending changes**
+**编辑暂存变更**
 
-You can make edits directly in the pending changes of the diff view.
+你可以在比较视图中直接编辑暂存变更
 
 
 ## 分支
@@ -890,10 +889,9 @@ Place breakpoints next to the line number. Navigate forward with the Debug widge
 
 ![debug](/media/node_debug.gif)
 
-## Data inspection
 ## 数据审查
 
-Inspect variables in the Debug panels and in the console.
+在调试面板和调试控制台中检查变量
 
 ![data inspection](/media/debug_data_inspection.gif)
 
@@ -903,7 +901,6 @@ Inspect variables in the Debug panels and in the console.
 
 # 运行任务
 
-## Auto detect tasks
 ## 自动获取任务
 
 Select **Tasks** from the top-level menu, run the command **Configure Tasks...**, then select the type of task you'd like to run.
@@ -931,13 +928,11 @@ This will generate a `task.json` file with content like the following. See the T
 }
 ```
 
-There are occasionally issues with auto generation. Check out the documentation for getting things to work properly.
 有一些偶然的 issue 会自动产生，查阅文档可以让你事半功倍哦。
 
 
 ## 从任务菜单运行任务
 
-Select **Tasks** from the top-level menu, run the command **Run Task...**, and select the task you want to run. Terminate the running task by running the command **Terminate Task...**
 从顶层菜单选择**任务**，选择**运行任务...**命令，接着选择你想运行的人物。选择**终止任务...** 停止任务运行。
 
 ![task runner](/media/task_runner.gif)
