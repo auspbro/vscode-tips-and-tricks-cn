@@ -549,7 +549,7 @@ code --disable-extensions .
 
 ![shrink expand selection](/media/shrink_expand_selection.gif)
 
-## 在文件中的符号位跳转
+## 转到文件中的符号
 
 > Mac: <kbd>cmd+shift+o</kbd>
 
@@ -561,7 +561,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![group symbols by kind](/media/group_symbols_by_kind.png)
 
-## 在工作区中的符号位跳转
+## 转到工作区中的符号
 
 > Mac: <kbd>cmd+t</kbd>
 
@@ -569,7 +569,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![go to symbol in workspace](/media/go_to_symbol_in_workspace.png)
 
-## 跳转到某行
+## 转到行
 
 > Mac: <kbd>ctrl+g</kbd> or <kbd>cmd+p, :</kbd>
 
@@ -593,7 +593,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![move line up and down](/media/move_line.gif)
 
-## 修剪行尾空白
+## 去除行尾空白
 
 > Mac: <kbd>cmd+k cmd+x</kbd>
 
@@ -617,9 +617,9 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ## 代码折叠
 
-> Mac: <kbd>shift+cmd+\[</kbd> and <kbd>shift+cmd+\]</kbd>
+> Mac: <kbd>shift+cmd+\[</kbd> 和 <kbd>shift+cmd+\]</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+\[</kbd> and <kbd>ctrl+shift+\]</kbd>
+> Windows / Linux: <kbd>ctrl+shift+\[</kbd> 和 <kbd>ctrl+shift+\]</kbd>
 
 ![code folding](/media/code_folding.gif)
 
@@ -651,8 +651,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![toggle readme preview](/media/toggle_preview.gif)
 
-## Side by Side Markdown Edit and Preview
-## 拆分编辑器一边编辑 Markdown 同时一边预览
+## Markdown 预览
 
 在 Markdown 文件中使用
 
@@ -671,27 +670,25 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 你可以查看提供的方法，参数提示及短文档等。
 
-## Peek
 ## 一瞥
 
 Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the context menu.
-选择一个象征符号然后按下 <kbd>alt+f12</kbd>，或者你可以使用上下文菜单（Windows 右键菜单）。
+选择一个符号然后按下 <kbd>alt+f12</kbd>，或者你可以使用上下文菜单（Windows 右键菜单）。
 
 ![peek](/media/peek.gif)
 
 ## 转到定义
 
-选择一个 symbol 然后按下 <kbd>f12</kbd>，另外你也可以使用上下文菜单或者 <kbd>ctrl+click</kbd> (<kbd>cmd+click</kbd> on macOS)。
+选择一个符号然后按下 <kbd>f12</kbd>，另外你也可以使用上下文菜单或者 <kbd>ctrl+click</kbd> (<kbd>cmd+click</kbd> on macOS)。
 
 
 ![go to definition](/media/goto_definition.gif)
 
-You can go back to your previous location with the **Go** > **Back** command or <kbd>alt+left</kbd> (<kbd>ctrl+-</kbd> on macOS).
+你可以返回到上一个的位置操作**转到** > **后退** 指令或 <kbd>alt+left</kbd> (<kbd>ctrl+-</kbd> on macOS)。
 
 ## 查找所有申明
 
-Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the context menu.
-选择一个 symbol 然后按下 <kbd>shift+f12</kbd>，或者可以使用环境菜单。
+选择一个符号然后按下 <kbd>shift+f12</kbd>，或者可以使用环境菜单。
 
 ![find all references](/media/find_all_references.gif)
 
@@ -797,7 +794,6 @@ VS Code 默认内部集成 Git ，你也可以在扩展商店安装其他的源�
 
 ![git diff side by side](/media/git_side_by_side.png)
 
-**Inline view**
 **内联视图**
 
 在并排对比视图状态下可以通过点击右上角**更多**按钮选择**切换到内联视图**
@@ -806,7 +802,7 @@ VS Code 默认内部集成 Git ，你也可以在扩展商店安装其他的源�
 
 ![git inline](/media/git_inline.png)
 
-If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false`.
+如果你更喜欢内联视图，可以设置 `"diffEditor.renderSideBySide": false`。
 
 
 **Review Pane**
