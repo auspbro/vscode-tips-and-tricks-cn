@@ -133,8 +133,7 @@ code --disable-extensions .
 
 ![errors and warnings](/media/Errors_Warnings.gif)
 
-You can filter problems by type ('errors', 'warnings') or text matching.
-你可以输入（'errors','warnings'）或匹配的文本来过滤筛选问题。
+你可以通过输入（'errors','warnings'）或匹配的文本来过滤筛选问题。
 
 **更换语言模式**
 
@@ -356,7 +355,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 1. 在 VS Code [商店](https://marketplace.visualstudio.com/vscode).
 2. 在 VS Code 内搜索
-3. 查看扩展推荐
+3. 查看推荐的扩展
 4. 社区创建的扩张列表，例如 [awesome-vscode](https://github.com/viatsko/awesome-vscode).
 
 ## 安装扩展
