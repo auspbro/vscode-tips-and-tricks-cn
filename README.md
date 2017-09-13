@@ -558,6 +558,7 @@ code --disable-extensions .
 ![Find by symbol](/media/find_by_symbol.gif)
 
 You can group the symbols by kind by adding a colon, `@:`.
+你可以添加一个冒号`@:`来分组符号
 
 ![group symbols by kind](/media/group_symbols_by_kind.png)
 
@@ -744,7 +745,6 @@ Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the con
 
 ## package.json
 
-See IntelliSense for your `package.json` file.
 查看你 `package.json` 文件的智能提示
 
 ![package json intellisense](/media/package_json_intellisense.gif)
@@ -828,7 +828,6 @@ You can make edits directly in the pending changes of the diff view.
 
 **暂存所有文件**
 
-Hover over the number of files and click the plus button.
 鼠标悬停在有数字的文件上点击加号按钮。
 
 
@@ -836,7 +835,6 @@ Hover over the number of files and click the plus button.
 
 **暂存某个文件**
 
-Stage a portion of a file by selecting that file (using the arrows) and then choosing **Stage Selected Ranges** from the **Command Palette**.
 在**命令面板**选择**暂存所选范围**暂存文件的一部分
 
 
@@ -868,7 +866,6 @@ Gutter 指示器功能可以让你在编辑器编辑区看到源码被改动过�
 
 ## 解决合并冲突
 
-During a merge, click the Source Control button in the Activity Bar and make changes in the diff view.
 在合并分支时，在活动栏点击源代码管理按钮
 
 ![git icon](/media/git_icon.png)
@@ -900,10 +897,8 @@ Inspect variables in the Debug panels and in the console.
 
 ![data inspection](/media/debug_data_inspection.gif)
 
-## Inline values
 ## 内联值
 
-You can set `"debug.inlineValues": true` to see variable values inline in the debugger. This feature is experimental and disabled by default.
 你可以通过设置 `"debug.inlineValues": true` 打开在调试器中来查看提供的值这个功能，这个功能还处于实验阶段所以默认是关闭的。
 
 # 运行任务
