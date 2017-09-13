@@ -436,8 +436,7 @@ code --disable-extensions .
 
 ![split editors](/media/split_editor.gif)
 
-You can use drag and drop editors to create new editor groups and move editors between groups.
-你可以使用拖拽的方式来创建新的编辑器组和在编辑器组之间移动
+你可以使用拖拽的方式来创建新的编辑器组以及在编辑器组之间移动
 
 ## 在编辑器标签页之间切换
 
@@ -472,15 +471,13 @@ You can use drag and drop editors to create new editor groups and move editors b
 回溯上一个编辑过的文件 <kbd>ctrl+tab</kbd>
 
 
-Navigate back.
-操作历史往后回溯。
+回溯历史操作。
 
 > Mac: <kbd>ctrl+-</kbd>
 
 > Windows / Linux: <kbd>alt+left</kbd>
 
-Navigate Forward.
-操作历史向前回溯。
+向前回溯历史操作。
 
 > Mac: <kbd>ctrl+shift+-</kbd>
 
@@ -488,12 +485,11 @@ Navigate Forward.
 
 ![navigate history](/media/navigate_history.gif)
 
-## Navigate to a file
-## 回溯文件
+## 回顾并切换到历史的某个文件
 
-> Mac: <kbd>cmd+e</kbd> or <kbd>cmd+p</kbd>
+> Mac: <kbd>cmd+e</kbd> 或 <kbd>cmd+p</kbd>
 
-> Windows / Linux: <kbd>ctrl+e</kbd> or <kbd>ctrl+p</kbd>
+> Windows / Linux: <kbd>ctrl+e</kbd> 或 <kbd>ctrl+p</kbd>
 
 ![navigate to file](/media/navigate_to_file.gif)
 
