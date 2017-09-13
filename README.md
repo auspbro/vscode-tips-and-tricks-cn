@@ -901,8 +901,8 @@ git config --global merge.tool code
 
 ## 自动获取任务
 
-Select **Tasks** from the top-level menu, run the command **Configure Tasks...**, then select the type of task you'd like to run.
-This will generate a `task.json` file with content like the following. See the Tasks [documentation](https://go.microsoft.com/fwlink/?LinkId=733558) for more details.
+从顶部菜单栏选择**任务** > **运行任务(R)...**,然后选择你想运行的任务类型。
+这会产生一个如下内容的 `task.json` 文件，更多细节请参考任务[文档](https://go.microsoft.com/fwlink/?LinkId=733558)。
 
 ```json
 {
