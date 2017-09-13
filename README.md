@@ -549,7 +549,7 @@ code --disable-extensions .
 
 ![shrink expand selection](/media/shrink_expand_selection.gif)
 
-## 在文件中的标志位跳转
+## 在文件中的符号位跳转
 
 > Mac: <kbd>cmd+shift+o</kbd>
 
@@ -561,7 +561,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![group symbols by kind](/media/group_symbols_by_kind.png)
 
-## 在工作区中的标志位跳转
+## 在工作区中的符号位跳转
 
 > Mac: <kbd>cmd+t</kbd>
 
@@ -577,8 +577,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![navigate to line](/media/navigate_to_line.gif)
 
-## Undo cursor position
-## 撤销光标位置
+## 撤销光标位
 
 > Mac: <kbd>cmd+u</kbd>
 
