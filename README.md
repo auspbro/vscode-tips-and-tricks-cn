@@ -805,9 +805,7 @@ VS Code 默认内部集成 Git ，你也可以在扩展商店安装其他的源�
 
 **Review Pane**
 
-Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format. 
-Lines can be navigated with arrow keys and pressing `Enter` will jump back in the diff editor and the selected line.
-在对比视图中通过 `F7` 和 `Shift+F7` 来切换到不同的代码区块，
+在对比视图中通过 `F7` 和 `Shift+F7` 来切换到不同的代码区块，通过箭头键和 `Enter` 键可以定位行.
 
 ![diff_review_pane](/media/diff_review_pane.png)
 
@@ -851,7 +849,7 @@ VS Code 可以方便的查看 Git 指令是否有效的执行，这对学习 Git
 
 > Windows / Linux: <kbd>ctrl+shift+u</kbd>
 
-to run `toggleOutput`. Select **Git** in the drop-down.
+在输出窗口下拉菜单选择 **Git** 运行 `toggleOutput`。
 
 ## Gutter 指示器
 
@@ -879,13 +877,13 @@ git config --global merge.tool code
 
 ## 配置调试器
 
-<kbd>f1</kbd> and select **Debug: Open launch.json**, select the environment. This will generate a `launch.json` file. Works out of the box as expected for Node.js and other environments. May need some additional configuration for other languages. See [documentation](https://code.visualstudio.com/docs/editor/debugging) for more details.
+按 <kbd>f1</kbd> 选择 **Debug: Open launch.json** 环境，会产生一个 `lanch.json` 文件。如果要为 Node.js 和其他环境配置立即可用的，可能需要一些其他语言的配置，具体内容请参考[文档](https://code.visualstudio.com/docs/editor/debugging)
 
 ![configure debugging](/media/configure_debug.gif)
 
 ## 断点和单步调试
 
-Place breakpoints next to the line number. Navigate forward with the Debug widget.
+紧挨着行号放置断点，点击调试小部件窗口的绿色前进三角按钮开始调试。
 
 ![debug](/media/node_debug.gif)
 
