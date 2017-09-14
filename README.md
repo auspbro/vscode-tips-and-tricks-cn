@@ -12,7 +12,7 @@
 3. <a href="#插件扩展">插件扩展</a>
 4. <a href="#文件及文件夹管理">文件及文件夹管理</a>
 5. <a href="#进阶编辑">进阶编辑</a>
-6. <a href="#智能提示">智能提示</a>
+6. <a href="#智能感知">智能感知</a>
 7. <a href="#创建代码片段">创建代码片段</a>
 8. <a href="#Git 集成">Git 集成</a>
 9. <a href="#调试">调试</a>
@@ -662,9 +662,9 @@ code --disable-extensions .
 
 ![markdown sync](/media/markdown-preview-sync.gif)
 
-# 智能提示
+# 智能感知
 
-无论何时，尝试按下 <kbd>ctrl+space</kbd> 来触发智能建议小部件功能。
+一个非常有用的语法高亮和自动完成功能，提供了基于变量类型、函数定义和导入模块的自动补全功能。无论何时，尝试按下 <kbd>ctrl+space</kbd> 来触发智能感知小部件功能。
 
 ![intellisense](/media/intellisense.gif)
 
@@ -875,9 +875,12 @@ git config --global merge.tool code
 
 # 调试
 
+内置调试器可以通过添加断点和观察器进行调试，以帮助你加快编辑，编译等。
+
 ## 配置调试器
 
-按 <kbd>f1</kbd> 选择 **Debug: Open launch.json** 环境，会产生一个 `lanch.json` 文件。如果要为 Node.js 和其他环境配置立即可用的，可能需要一些其他语言的配置，具体内容请参考[文档](https://code.visualstudio.com/docs/editor/debugging)
+默认情况下，它支持 NodeJS ，并且可以调试任何可以被转换为 JavaScript （比如 TypeScript 等），但像 C++ 或 Python 这样的其他运行时则需要安装扩展才能进行调试。
+按 <kbd>f1</kbd> 选择 **Debug: Open launch.json** 环境，会产生一个 `lanch.json` 文件。具体内容请参考[文档](https://code.visualstudio.com/docs/editor/debugging)
 
 ![configure debugging](/media/configure_debug.gif)
 
