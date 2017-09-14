@@ -801,7 +801,6 @@ VS Code 默认内部集成 Git ，你也可以在扩展商店安装其他的源�
 ![git inline](/media/git_inline.png)
 
 <<<<<<< HEAD
-如果相比较而言你更喜欢内联视图，你可以设置 `"diffEditor.renderSideBySide": false`。
 =======
 如果你更喜欢内联视图，可以设置 `"diffEditor.renderSideBySide": false`。
 >>>>>>> fa2490fdb13a5d135bf6001d062e4fee011829b1
