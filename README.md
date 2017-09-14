@@ -12,7 +12,7 @@
 3. <a href="#插件扩展">插件扩展</a>
 4. <a href="#文件及文件夹管理">文件及文件夹管理</a>
 5. <a href="#进阶编辑">进阶编辑</a>
-6. <a href="#智能提示">智能提示</a>
+6. <a href="#智能感知">智能感知</a>
 7. <a href="#创建代码片段">创建代码片段</a>
 8. <a href="#Git 集成">Git 集成</a>
 9. <a href="#调试">调试</a>
@@ -133,8 +133,7 @@ code --disable-extensions .
 
 ![errors and warnings](/media/Errors_Warnings.gif)
 
-You can filter problems by type ('errors', 'warnings') or text matching.
-你可以输入（'errors','warnings'）或匹配的文本来过滤筛选问题。
+你可以通过输入（'errors','warnings'）或匹配的文本来过滤筛选问题。
 
 **更换语言模式**
 
@@ -301,8 +300,7 @@ You can filter problems by type ('errors', 'warnings') or text matching.
 
 ## 添加 JSON 认可
 
-Enabled by default for many files. Create your own schema and validation in `settings.json`
-开启默认启用，在 `settings.json` 创建你自己的 schema 和 validation。
+多数文件默认是启用的，在 `settings.json` 创建你自己的 schema 和 validation。
 
 ```json
 "json.schemas": [
@@ -356,7 +354,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 1. 在 VS Code [商店](https://marketplace.visualstudio.com/vscode).
 2. 在 VS Code 内搜索
-3. 查看扩展推荐
+3. 查看推荐的扩展
 4. 社区创建的扩张列表，例如 [awesome-vscode](https://github.com/viatsko/awesome-vscode).
 
 ## 安装扩展
@@ -438,10 +436,9 @@ Enabled by default for many files. Create your own schema and validation in `set
 
 ![split editors](/media/split_editor.gif)
 
-You can use drag and drop editors to create new editor groups and move editors between groups.
-你可以使用拖拽的方式来创建新的编辑器组和在编辑器组之间移动
+你可以使用拖拽的方式来创建新的编辑器组以及在编辑器组之间移动
 
-## 在多页编辑器之间切换
+## 在编辑器标签页之间切换
 
 > Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
 
@@ -474,15 +471,13 @@ You can use drag and drop editors to create new editor groups and move editors b
 回溯上一个编辑过的文件 <kbd>ctrl+tab</kbd>
 
 
-Navigate back.
-操作历史往后回溯。
+回溯历史操作。
 
 > Mac: <kbd>ctrl+-</kbd>
 
 > Windows / Linux: <kbd>alt+left</kbd>
 
-Navigate Forward.
-操作历史向前回溯。
+向前回溯历史操作。
 
 > Mac: <kbd>ctrl+shift+-</kbd>
 
@@ -490,12 +485,11 @@ Navigate Forward.
 
 ![navigate history](/media/navigate_history.gif)
 
-## Navigate to a file
-## 回溯文件
+## 回顾并切换到历史的某个文件
 
-> Mac: <kbd>cmd+e</kbd> or <kbd>cmd+p</kbd>
+> Mac: <kbd>cmd+e</kbd> 或 <kbd>cmd+p</kbd>
 
-> Windows / Linux: <kbd>ctrl+e</kbd> or <kbd>ctrl+p</kbd>
+> Windows / Linux: <kbd>ctrl+e</kbd> 或 <kbd>ctrl+p</kbd>
 
 ![navigate to file](/media/navigate_to_file.gif)
 
@@ -513,26 +507,23 @@ Navigate Forward.
 
 这里挑选了一些常见的提高编辑效率的技巧。如果键盘快捷键跟你习惯有冲突，可以考虑安装[键映射](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 扩展。
 
-## Multi cursor selection
-## 多光标选择
+## 插入多光标
 
-> Mac: <kbd>opt+cmd+up</kbd> 或者 <kbd>opt+cmd+down</kbd>
+> Mac: <kbd>opt+cmd+up</kbd> 或 <kbd>opt+cmd+down</kbd>
 
-> Windows: <kbd>ctrl+alt+up</kbd> 或者 <kbd>ctrl+alt+down</kbd>
+> Windows: <kbd>ctrl+alt+up</kbd> 或 <kbd>ctrl+alt+down</kbd>
 
-> Linux: <kbd>alt+shift+up</kbd> 或者 <kbd>alt+shift+down</kbd>
+> Linux: <kbd>alt+shift+up</kbd> 或 <kbd>alt+shift+down</kbd>
 
 ![multi cursor](/media/multi_cursor.gif)
 
 ![multi cursor second example](/media/editingevolved_multicursor.gif)
 
-Add more cursors to current selection.
 添加更多的光标到当前选中的地方。
 
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
-## Join line
-## 多行加入到一行
+## 合并行
 
 > Mac: <kbd>ctrl+j</kbd>
 
@@ -540,16 +531,15 @@ Add more cursors to current selection.
 
 ![Join lines](/media/JoinLines.gif)
 
-## 把当前行复制到上／下一行
+## 复制当前行到上/下一行
 
-> Mac: <kbd>opt+shift+up</kbd> 或者· <kbd>opt+shift+down</kbd>
+> Mac: <kbd>opt+shift+up</kbd> 或 <kbd>opt+shift+down</kbd>
 
 > Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
 
-## Shrink / expand selection
-## 缩小／扩大选择
+## 收缩/展开选择区域
 
 更多[文档](https://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
 
@@ -559,8 +549,7 @@ Add more cursors to current selection.
 
 ![shrink expand selection](/media/shrink_expand_selection.gif)
 
-## Go to Symbol in File
-## 在文件中跳转到标志符号
+## 转到文件中的符号
 
 > Mac: <kbd>cmd+shift+o</kbd>
 
@@ -568,12 +557,11 @@ Add more cursors to current selection.
 
 ![Find by symbol](/media/find_by_symbol.gif)
 
-You can group the symbols by kind by adding a colon, `@:`.
+你可以添加一个冒号`@:`来分组符号
 
 ![group symbols by kind](/media/group_symbols_by_kind.png)
 
-## Go to Symbol in Workspace
-## 在工作区中跳转到标志符号
+## 转到工作区中的符号
 
 > Mac: <kbd>cmd+t</kbd>
 
@@ -581,7 +569,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![go to symbol in workspace](/media/go_to_symbol_in_workspace.png)
 
-## 跳转到XX行
+## 转到行
 
 > Mac: <kbd>ctrl+g</kbd> or <kbd>cmd+p, :</kbd>
 
@@ -589,8 +577,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![navigate to line](/media/navigate_to_line.gif)
 
-## Undo cursor position
-## 撤销光标位置
+## 撤销光标位
 
 > Mac: <kbd>cmd+u</kbd>
 
@@ -606,7 +593,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![move line up and down](/media/move_line.gif)
 
-## 修剪行尾空白
+## 去除行尾空白
 
 > Mac: <kbd>cmd+k cmd+x</kbd>
 
@@ -630,9 +617,9 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ## 代码折叠
 
-> Mac: <kbd>shift+cmd+\[</kbd> and <kbd>shift+cmd+\]</kbd>
+> Mac: <kbd>shift+cmd+\[</kbd> 和 <kbd>shift+cmd+\]</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+\[</kbd> and <kbd>ctrl+shift+\]</kbd>
+> Windows / Linux: <kbd>ctrl+shift+\[</kbd> 和 <kbd>ctrl+shift+\]</kbd>
 
 ![code folding](/media/code_folding.gif)
 
@@ -664,8 +651,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![toggle readme preview](/media/toggle_preview.gif)
 
-## Side by Side Markdown Edit and Preview
-## 拆分编辑器一边编辑 Markdown 同时一边预览
+## Markdown 预览
 
 在 Markdown 文件中使用
 
@@ -676,35 +662,32 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![markdown sync](/media/markdown-preview-sync.gif)
 
-# 智能提示
+# 智能感知
 
-无论何时，尝试按下 <kbd>ctrl+space</kbd> 来触发智能建议小部件功能。
+一个非常有用的语法高亮和自动完成功能，提供了基于变量类型、函数定义和导入模块的自动补全功能。无论何时，尝试按下 <kbd>ctrl+space</kbd> 来触发智能感知小部件功能。
 
 ![intellisense](/media/intellisense.gif)
 
 你可以查看提供的方法，参数提示及短文档等。
 
-## Peek
 ## 一瞥
 
-Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the context menu.
-选择一个象征符号然后按下 <kbd>alt+f12</kbd>，或者你可以使用上下文菜单（Windows 右键菜单）。
+选择一个符号然后按下 <kbd>alt+f12</kbd>，或者你可以使用上下文菜单（Windows 右键菜单）。
 
 ![peek](/media/peek.gif)
 
 ## 转到定义
 
-选择一个 symbol 然后按下 <kbd>f12</kbd>，另外你也可以使用上下文菜单或者 <kbd>ctrl+click</kbd> (<kbd>cmd+click</kbd> on macOS)。
+选择一个符号然后按下 <kbd>f12</kbd>，另外你也可以使用上下文菜单或者 <kbd>ctrl+click</kbd> (<kbd>cmd+click</kbd> on macOS)。
 
 
 ![go to definition](/media/goto_definition.gif)
 
-You can go back to your previous location with the **Go** > **Back** command or <kbd>alt+left</kbd> (<kbd>ctrl+-</kbd> on macOS).
+你可以返回到上一个的位置操作**转到** > **后退** 指令或 <kbd>alt+left</kbd> (<kbd>ctrl+-</kbd> on macOS)。
 
 ## 查找所有申明
 
-Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the context menu.
-选择一个 symbol 然后按下 <kbd>shift+f12</kbd>，或者可以使用环境菜单。
+选择一个符号然后按下 <kbd>shift+f12</kbd>，或者可以使用环境菜单。
 
 ![find all references](/media/find_all_references.gif)
 
@@ -760,7 +743,6 @@ Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the c
 
 ## package.json
 
-See IntelliSense for your `package.json` file.
 查看你 `package.json` 文件的智能提示
 
 ![package json intellisense](/media/package_json_intellisense.gif)
@@ -810,7 +792,6 @@ VS Code 默认内部集成 Git ，你也可以在扩展商店安装其他的源�
 
 ![git diff side by side](/media/git_side_by_side.png)
 
-**Inline view**
 **内联视图**
 
 在并排对比视图状态下可以通过点击右上角**更多**按钮选择**切换到内联视图*·*
@@ -819,20 +800,23 @@ VS Code 默认内部集成 Git ，你也可以在扩展商店安装其他的源�
 
 ![git inline](/media/git_inline.png)
 
+<<<<<<< HEAD
 如果相比较而言你更喜欢内联视图，你可以设置 `"diffEditor.renderSideBySide": false`。
+=======
+如果你更喜欢内联视图，可以设置 `"diffEditor.renderSideBySide": false`。
+>>>>>>> fa2490fdb13a5d135bf6001d062e4fee011829b1
 
 
 **Review Pane**
 
-Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format. 
-Lines can be navigated with arrow keys and pressing `Enter` will jump back in the diff editor and the selected line.
+在对比视图中通过 `F7` 和 `Shift+F7` 来切换到不同的代码区块，通过箭头键和 `Enter` 键可以定位行.
 
 ![diff_review_pane](/media/diff_review_pane.png)
 
 
-**Edit pending changes**
+**编辑暂存变更**
 
-You can make edits directly in the pending changes of the diff view.
+你可以在比较视图中直接编辑暂存变更
 
 
 ## 分支
@@ -845,7 +829,6 @@ You can make edits directly in the pending changes of the diff view.
 
 **暂存所有文件**
 
-Hover over the number of files and click the plus button.
 鼠标悬停在有数字的文件上点击加号按钮。
 
 
@@ -853,7 +836,6 @@ Hover over the number of files and click the plus button.
 
 **暂存某个文件**
 
-Stage a portion of a file by selecting that file (using the arrows) and then choosing **Stage Selected Ranges** from the **Command Palette**.
 在**命令面板**选择**暂存所选范围**暂存文件的一部分
 
 
@@ -871,7 +853,7 @@ VS Code 可以方便的查看 Git 指令是否有效的执行，这对学习 Git
 
 > Windows / Linux: <kbd>ctrl+shift+u</kbd>
 
-to run `toggleOutput`. Select **Git** in the drop-down.
+在输出窗口下拉菜单选择 **Git** 运行 `toggleOutput`。
 
 ## Gutter 指示器
 
@@ -885,7 +867,6 @@ Gutter 指示器功能可以让你在编辑器编辑区看到源码被改动过�
 
 ## 解决合并冲突
 
-During a merge, click the Source Control button in the Activity Bar and make changes in the diff view.
 在合并分支时，在活动栏点击源代码管理按钮
 
 ![git icon](/media/git_icon.png)
@@ -898,38 +879,37 @@ git config --global merge.tool code
 
 # 调试
 
+内置调试器可以通过添加断点和观察器进行调试，以帮助你加快编辑，编译等。
+
 ## 配置调试器
 
-<kbd>f1</kbd> and select **Debug: Open launch.json**, select the environment. This will generate a `launch.json` file. Works out of the box as expected for Node.js and other environments. May need some additional configuration for other languages. See [documentation](https://code.visualstudio.com/docs/editor/debugging) for more details.
+默认情况下，它支持 NodeJS ，并且可以调试任何可以被转换为 JavaScript （比如 TypeScript 等），但像 C++ 或 Python 这样的其他运行时则需要安装扩展才能进行调试。
+按 <kbd>f1</kbd> 选择 **Debug: Open launch.json** 环境，会产生一个 `lanch.json` 文件。具体内容请参考[文档](https://code.visualstudio.com/docs/editor/debugging)
 
 ![configure debugging](/media/configure_debug.gif)
 
 ## 断点和单步调试
 
-Place breakpoints next to the line number. Navigate forward with the Debug widget.
+紧挨着行号放置断点，点击调试小部件窗口的绿色前进三角按钮开始调试。
 
 ![debug](/media/node_debug.gif)
 
-## Data inspection
 ## 数据审查
 
-Inspect variables in the Debug panels and in the console.
+在调试面板和调试控制台中检查变量
 
 ![data inspection](/media/debug_data_inspection.gif)
 
-## Inline values
 ## 内联值
 
-You can set `"debug.inlineValues": true` to see variable values inline in the debugger. This feature is experimental and disabled by default.
 你可以通过设置 `"debug.inlineValues": true` 打开在调试器中来查看提供的值这个功能，这个功能还处于实验阶段所以默认是关闭的。
 
 # 运行任务
 
-## Auto detect tasks
 ## 自动获取任务
 
-Select **Tasks** from the top-level menu, run the command **Configure Tasks...**, then select the type of task you'd like to run.
-This will generate a `task.json` file with content like the following. See the Tasks [documentation](https://go.microsoft.com/fwlink/?LinkId=733558) for more details.
+从顶部菜单栏选择**任务** > **运行任务(R)...**,然后选择你想运行的任务类型。
+这会产生一个如下内容的 `task.json` 文件，更多细节请参考任务[文档](https://go.microsoft.com/fwlink/?LinkId=733558)。
 
 ```json
 {
@@ -953,13 +933,11 @@ This will generate a `task.json` file with content like the following. See the T
 }
 ```
 
-There are occasionally issues with auto generation. Check out the documentation for getting things to work properly.
 有一些偶然的 issue 会自动产生，查阅文档可以让你事半功倍哦。
 
 
 ## 从任务菜单运行任务
 
-Select **Tasks** from the top-level menu, run the command **Run Task...**, and select the task you want to run. Terminate the running task by running the command **Terminate Task...**
 从顶层菜单选择**任务**，选择**运行任务...**命令，接着选择你想运行的人物。选择**终止任务...** 停止任务运行。
 
 ![task runner](/media/task_runner.gif)
