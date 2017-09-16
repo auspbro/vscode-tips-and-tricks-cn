@@ -172,7 +172,7 @@ code --disable-extensions .
 
 ### 键盘快捷键参考文档
 
-对应平台的快捷键参考文档 ([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144)).
+对应·平台的快捷键参考文档 ([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144)).
 
 ![Keyboard Reference Sheet](/media/KeyboardReferenceSheet.png)
 
