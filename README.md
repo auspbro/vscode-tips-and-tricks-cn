@@ -226,7 +226,7 @@ code --disable-extensions .
 "editor.fontLigatures": true
 ```
 
-> **提示:** 你需要安装一个支持 font ligatures 的字体。 [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team.
+> **提示:** 你需要安装一个支持 font ligatures 的字体。 [FiraCode](https://github.com/tonsky/FiraCode) 在 VS Code team 是一个比较受欢迎的字体。
 
 ![font ligatures](/media/font-ligatures-annotated.png)
 
