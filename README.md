@@ -520,6 +520,11 @@ code --disable-extensions .
 ![multi cursor second example](/media/editingevolved_multicursor.gif)
 
 添加更多的光标到当前选中的地方。
+> Mac: <kbd>shift+cmd+l</kbd> 
+
+> Windows: <kbd>ctrl+shift+l</kbd> 
+
+> Linux: <kbd>ctrl+shift+l</kbd> 
 
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
