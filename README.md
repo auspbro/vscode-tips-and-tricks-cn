@@ -269,7 +269,7 @@ code --disable-extensions .
 ```json
 "files.exclude": {
         "somefolder/": true,
-        "somefile": true
+        "somefile": true·
 }
 ```
 
@@ -938,7 +938,7 @@ git config --global merge.tool code
 
 ## 从任务菜单运行任务
 
-从顶层菜单选择**任务**，选择**运行任务...**命令，接着选择你想运行的人物。选择**终止任务...** 停止任务运行。
+从菜单栏选择**任务**，选择**运行任务...**命令，接着选择你想运行的任务。选择**终止任务...** 停止运行任务。
 
 ![task runner](/media/task_runner.gif)
 
