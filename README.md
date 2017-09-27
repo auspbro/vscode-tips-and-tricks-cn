@@ -20,7 +20,7 @@
 11. <a href="#其他资源">其他资源</a>
 
 
-# 基本
+# 基本·
 
 ## VS Code 内部测试版本
 
@@ -147,7 +147,7 @@ code --disable-extensions .
 
 # 自定义
 
-·通过自定义 VS Code,你可以做更多事情
+通过自定义 VS Code,你可以做更多事情
 
 * 更换主题
 * 更换键盘快捷键
@@ -160,11 +160,11 @@ code --disable-extensions .
 
 ## 更改主题
 
-打开 **命令面板** 输入"themes". 你可以在扩展商店安装更多主题。
+打开 **命令面板** 输入"themes",你可以在扩展商店安装更多主题。
 
 ![Preview themes](/media/PreviewThemes.gif)
 
-另外你可以安装更改文件图标的主题
+另外你可以安装更改文件图标的主题插件
 
 ![File icon themes](/media/PreviewFileIconThemes.gif)
 
@@ -193,7 +193,7 @@ code --disable-extensions .
 
 查看更多关于 [Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings) 自定义快捷键内容。
 
-## 自定义设置·
+## 自定义设置
 
 打开 `settings.json`
 
