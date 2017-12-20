@@ -597,7 +597,7 @@ code --disable-extensions .
 
 ![undo cursor position](/media/undo_cursor_position.gif)
 
-## 当前行向上或下移动·
+## 当前行向上或下移动
 
 > Mac: <kbd>opt+up</kbd> or <kbd>opt+down</kbd>
 
