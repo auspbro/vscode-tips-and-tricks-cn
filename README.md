@@ -532,6 +532,7 @@ code --disable-extensions .
 > Windows: <kbd>ctrl+d</kbd> 
 
 > Linux: <kbd>ctrl+d</kbd> 
+
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
 ## 合并行
