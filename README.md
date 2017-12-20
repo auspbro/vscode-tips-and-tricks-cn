@@ -20,7 +20,7 @@
 11. <a href="#其他资源">其他资源</a>
 
 
-# 基本·
+# 基本
 
 ## VS Code 内部测试版本
 
@@ -193,7 +193,7 @@ code --disable-extensions .
 
 查看更多关于 [Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings) 自定义快捷键内容。
 
-## 自定义设置
+## 自定义设置·
 
 打开 `settings.json`
 
