@@ -20,7 +20,7 @@
 11. <a href="#其他资源">其他资源</a>
 
 
-# 基本·
+# 基本
 
 ## VS Code 内部测试版本
 
@@ -193,7 +193,7 @@ code --disable-extensions .
 
 查看更多关于 [Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings) 自定义快捷键内容。
 
-## 自定义设置
+## 自定义设置·
 
 打开 `settings.json`
 
@@ -519,12 +519,19 @@ code --disable-extensions .
 
 ![multi cursor second example](/media/editingevolved_multicursor.gif)
 
-添加更多的光标到当前选中的地方。
+同时选中所有匹配
 > Mac: <kbd>shift+cmd+l</kbd> 
 
 > Windows: <kbd>ctrl+shift+l</kbd> 
 
 > Linux: <kbd>ctrl+shift+l</kbd> 
+
+选中下一个匹配
+> Mac: <kbd>cmd+d</kbd> 
+
+> Windows: <kbd>ctrl+d</kbd> 
+
+> Linux: <kbd>ctrl+d</kbd> 
 
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
@@ -590,7 +597,7 @@ code --disable-extensions .
 
 ![undo cursor position](/media/undo_cursor_position.gif)
 
-## 当前行向上或下移动·
+## 当前行向上或下移动
 
 > Mac: <kbd>opt+up</kbd> or <kbd>opt+down</kbd>
 
