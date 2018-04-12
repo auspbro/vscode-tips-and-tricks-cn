@@ -507,11 +507,11 @@ code --disable-extensions .
 
 这里挑选了一些常见的提高编辑效率的技巧。如果键盘快捷键跟你习惯有冲突，可以考虑安装[键映射](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 扩展。
 
-## 插入多光标
+## 插入多光标编辑
 
 > Mac: <kbd>opt+cmd+up</kbd> 或 <kbd>opt+cmd+down</kbd>
 
-> Windows: <kbd>ctrl+alt+up</kbd> 或 <kbd>ctrl+alt+down</kbd>
+> Windows: <kbd>alt+鼠标左键</kbd>点选 或 <kbd>shift+alt+鼠标左键</kbd>拖动
 
 > Linux: <kbd>alt+shift+up</kbd> 或 <kbd>alt+shift+down</kbd>
 
