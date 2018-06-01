@@ -12,7 +12,7 @@
 3. <a href="#插件扩展">插件扩展</a>
 4. <a href="#文件及文件夹管理">文件及文件夹管理</a>
 5. <a href="#进阶编辑">进阶编辑</a>
-6. <a href="#智能感知">智能感知</a>
+6. <a href="#智能提示">智能提示</a>
 7. <a href="#创建代码片段">创建代码片段</a>
 8. <a href="#Git 集成">Git 集成</a>
 9. <a href="#调试">调试</a>
@@ -506,6 +506,15 @@ code --disable-extensions .
 # 进阶编辑
 
 这里挑选了一些常见的提高编辑效率的技巧。如果键盘快捷键跟你习惯有冲突，可以考虑安装[键映射](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) 扩展。
+
+## snippets 提示上下选择
+
+> Mac: <kbd>control+n/control+p</kbd>  或 <kbd>up/down key</kbd> 
+
+> Windows: <kbd>ctrl+n/ctrl+p</kbd> 或 <kbd>up/down key</kbd>
+
+> Linux: <kbd>ctrl+n/ctrl+p</kbd> 或 <kbd>up/down key</kbd>
+
 
 ## 插入多光标编辑
 
